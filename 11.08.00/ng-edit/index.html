@@ -30,23 +30,29 @@
         return decodeURIComponent(results[2].replace(/\+/g, ' '));
       }
 
-      // get sxcver from the url. If there is none, load it from the session storage
-      var sxcVersion = getParameterByName('sxcver');
-      if (!sxcVersion) sxcVersion = getParameterByName('sxcver', sessionStorage.getItem('eav-url'));
-      if (!sxcVersion) sxcVersion = Math.floor(Math.random() * 99999);
+      // Ensure that 2sxc.api.min is always reloaded to prevent caching of old code
+      // If last digit is a 0, then we're missing a real build number, so use a random one to ensure cache breaking
+      // fix https://github.com/2sic/2sxc/issues/2216
+      var vBuild = getParameterByName('sxcver');
+      if (!vBuild) vBuild = getParameterByName('sxcver', sessionStorage.getItem('eav-url'));
+      if (!vBuild) vBuild = Math.floor(Math.random() * 99999);
+      var vParts = vBuild.substr(vBuild.indexOf("=") + 1).split('.');
+      for (var vi = 0; vi < vParts.length; vi++) vParts[vi] = Number(vParts[vi]);
+      if (vParts[3] === 0) vParts[3] = Math.floor(Math.random() * 100000);
+      var cacheBreak = vParts.join('.');
 
       // the version to append to each asset, to ensure reload after an upgrade
-      window.sxcVersion = sxcVersion;
+      window.sxcVersion = cacheBreak;
       // create an empty _jsApi so $2sxc won't look for the meta-header - must fill afterwards!
       window._jsApi = {};
       // first load the main 2sxc because it contains some url-param methods
-      document.write('<script src="../../js/2sxc.api.min.js?sxcver=' + sxcVersion + '"></scr' + 'ipt>');
+      document.write('<script src="../../js/2sxc.api.min.js?cacheBreak=' + cacheBreak + '"></scr' + 'ipt>');
     })();
   </script>
-<link rel="stylesheet" href="styles.45e8de8a3fa9ae078bfd.css"></head>
+<link rel="stylesheet" href="styles.15e07dd4954a66cb8106.css"></head>
 
 <body>
   <app-root></app-root>
-<script src="runtime.9a659d1d2cd5ac85e3af.js" defer></script><script src="polyfills-es5.302cf126b7feae4ced4a.js" nomodule defer></script><script src="polyfills.88558fb9be599fb3c660.js" defer></script><script src="scripts.73fcf960a2785aaf6d7b.js" defer></script><script src="vendor.cd64534ed56b35fc9d35.js" defer></script><script src="main.5d2a09e2390bab340431.js" defer></script></body>
+<script src="runtime.ef94277f687d8f1bd42b.js" defer></script><script src="polyfills-es5.302cf126b7feae4ced4a.js" nomodule defer></script><script src="polyfills.88558fb9be599fb3c660.js" defer></script><script src="scripts.73fcf960a2785aaf6d7b.js" defer></script><script src="vendor.cd64534ed56b35fc9d35.js" defer></script><script src="main.a6bfb3a64650118a7d0f.js" defer></script></body>
 
 </html>
