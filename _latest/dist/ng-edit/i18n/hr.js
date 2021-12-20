@@ -5,7 +5,8 @@
       "Save.Tip": "Save and close (CTRL + S saves and doesn't close)",
       "Exit.Tip": "Exit - if something changed, you will be asked to save",
       "Return.Tip": "Return to previous dialog",
-      "History.Tip": "History / previous versions"
+      "History.Tip": "History / previous versions",
+      "Metadata.Tip": "This item is metadata for:"
     }
   },
   "PublishStatus": {
@@ -101,7 +102,7 @@
     "DefaultTitle": "Edit item",
     "SlotUsedTrue": "This item is open for editing. Click here to lock / remove it and revert to default.",
     "SlotUsedFalse": "This item is locked and will stay empty/default. The values are shown for your convenience. Click here to unlock if needed.",
-    "CopyHint": "(copy)"
+    "CopyHint": "This is a copy and will be saved as a new item"
   },
   "ValidationMessage": {
     "NotValid": "Not valid",
@@ -173,8 +174,8 @@
       "Open": "Open calendar"
     },
     "String": {
-      "Dropdown": "Switch to dropdown",
-      "Freetext": "Switch to enter text"
+      "Dropdown": "Pick existing value",
+      "Freetext": "Manual entry"
     },
     "TemplatePicker": {
       "NotSelected": "(no file selected)",
