@@ -7,9 +7,10 @@
       "Return.Tip": "Return to previous dialog",
       "History.Tip": "History / previous versions",
       "Metadata.Tip": "This item is metadata for:",
-      "Note.Add": "Add note",
-      "Note.Note": "Show note",
-      "Note.Warning": "Show warning"
+      "Note": {
+        "Add": "Add note",
+        "ItemNotSaved": "To add a note, please save item first"
+      }
     }
   },
   "PublishStatus": {
