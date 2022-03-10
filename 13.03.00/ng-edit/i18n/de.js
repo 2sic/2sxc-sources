@@ -7,9 +7,10 @@
       "Return.Tip": "Zurück zum vorherigen Dialog",
       "History.Tip": "Änderungen / Vorversionen",
       "Metadata.Tip": "Dies sind Metadaten für:",
-      "Note.Add": "Notiz hinzufügen",
-      "Note.Note": "Notiz anzeigen",
-      "Note.Warning": "Warnung anzeigen"
+      "Note": {
+        "Add": "Notiz hinzufügen",
+        "ItemNotSaved": "To add a note, please save item first"
+      }
     }
   },
   "PublishStatus": {
