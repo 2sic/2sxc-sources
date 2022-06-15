@@ -2,6 +2,9 @@
     <!-- This will be pre-filled by the backend -->
     <meta name="_jsApi" content="@jsapi">
 
+    <!-- optional headers - must be added before 2sxc is loaded -->
+    <!--@customheaders-->
+
     <!-- Load the $2sxc script; the @... below will be replaced by the backend for cache-breaking -->
     <script src="../../js/2sxc.api.min.js?cacheBreak=@sxcver"></script>
 
@@ -25,6 +28,7 @@
   <style>body{margin:0;font-family:Roboto,sans-serif}</style><link rel="stylesheet" href="styles.5d8f8911fafb2516.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.5d8f8911fafb2516.css"></noscript></head>
 
   <body>
+    <!--@custombody-->
     <app-root></app-root>
   <script src="runtime.5ca4ade95baaaaae.js" type="module"></script><script src="polyfills.37d04347a465d84e.js" type="module"></script><script src="vendor.2f1b77efcac9551d.js" type="module"></script><script src="main.b61e98a8f25e1bb4.js" type="module"></script>
 
