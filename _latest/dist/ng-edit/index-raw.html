@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Content Management</title>
+  <!-- this is pre-filled by the backend-->
+  <base href="@base">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- This will be pre-filled by the backend -->
+  <meta name="_jsApi-temp" content="@jsapi">
+
+  <script>
+    (function obsoleteBrowserCheck() {
+      var isIE = navigator.userAgent.indexOf("MSIE") >= 0 || navigator.userAgent.indexOf("Trident") >= 0 || !!document.documentMode;
+      var isEdge = navigator.userAgent.indexOf("Edge") >= 0;
+      if (isIE || isEdge) {
+        alert("Error: Old Browser Detected\n\nIt seems that you are using an old browser like Internet Explorer or Edge. \n\n"
+          + "Edit doesn't work with obsolete browsers. Please use a modern browser like Chrome.");
+        window.parent.$2sxc.totalPopup.close();
+      }
+    })();
+
+    (function init2sxc() {
+      window.sxcVersion = "@sxcver";  // the version for use in dependency URLs - will be replaced on the server
+
+      // create an empty _jsApi so $2sxc won't look for the meta-header - must fill afterwards!
+      window._jsApi = {};
+    })();
+  </script>
+
+  <!-- Load the $2sxc script; the @... below will be replaced by the backend for cache-breaking -->
+  <script src="../../js/2sxc.api.min.js?cacheBreak=@sxcver"></script>
+<style>@import"https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined";@import"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap";:root{--mdc-layout-grid-margin-desktop:24px;--mdc-layout-grid-gutter-desktop:24px;--mdc-layout-grid-column-width-desktop:72px;--mdc-layout-grid-margin-tablet:16px;--mdc-layout-grid-gutter-tablet:16px;--mdc-layout-grid-column-width-tablet:72px;--mdc-layout-grid-margin-phone:16px;--mdc-layout-grid-gutter-phone:16px;--mdc-layout-grid-column-width-phone:72px}html,body{height:100%}body{margin:0;background-color:transparent;font-family:Roboto,Helvetica Neue,sans-serif;overflow:hidden}</style><link rel="stylesheet" href="styles.e9b26762fa95cabd.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.e9b26762fa95cabd.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+<script src="runtime.f3fdcae7d15858c5.js" type="module"></script><script src="polyfills.3943811283ac10dc.js" type="module"></script><script src="scripts.eb93aa1b2de1d2e5.js" defer></script><script src="vendor.5343ac0e6734fb34.js" type="module"></script><script src="main.914cfc3184afba79.js" type="module"></script>
+
+
+</body></html>
