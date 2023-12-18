@@ -166,7 +166,8 @@
     "EntityQuery": {
       "QueryNoItems": "No items found",
       "QueryError": "Error: An error occurred while executing the query. See the console for more information.",
-      "QueryStreamNotFound": "Error: The query did not return a stream named"
+      "QueryStreamNotFound": "Error: The query did not return a stream named",
+      "QueryNotDefined": "Error: can't load data, query is not configured"
     },
     "Hyperlink": {
       "Default": {
