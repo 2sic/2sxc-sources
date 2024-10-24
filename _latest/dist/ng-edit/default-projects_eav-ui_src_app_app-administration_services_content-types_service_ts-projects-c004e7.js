@@ -1,0 +1,573 @@
+"use strict";
+(self["webpackChunkeav_ui"] = self["webpackChunkeav_ui"] || []).push([["default-projects_eav-ui_src_app_app-administration_services_content-types_service_ts-projects-c004e7"],{
+
+/***/ 17693:
+/*!**************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/app-administration/services/content-types.service.ts ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ContentTypesService: () => (/* binding */ ContentTypesService),
+/* harmony export */   webApiTypeRoot: () => (/* binding */ webApiTypeRoot)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ 70271);
+/* harmony import */ var _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/services/http-service-base */ 96474);
+
+
+
+
+// We should list all the "full" paths here, so it's easier to find when searching for API calls
+const webApiTypeRoot = 'admin/type/';
+const webApiTypeGet = 'admin/type/get';
+const webApiTypes = 'admin/type/list';
+const webApiTypeScopes = 'admin/type/scopes';
+const webApiTypeSave = 'admin/type/save';
+const webApiTypeDelete = 'admin/type/delete';
+const webApiTypeImport = 'admin/type/import';
+const webApiTypeAddGhost = 'admin/type/addghost';
+class ContentTypesService extends _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_0__.HttpServiceBase {
+  retrieveContentType(staticName) {
+    return this.getHttpApiUrl(webApiTypeGet, {
+      params: {
+        appId: this.appId,
+        contentTypeId: staticName
+      }
+    });
+  }
+  retrieveContentTypeSig(staticName, initial) {
+    return this.getSignal(webApiTypeGet, {
+      params: {
+        appId: this.appId,
+        contentTypeId: staticName
+      }
+    }, initial);
+  }
+  retrieveContentTypes(scope) {
+    return this.getHttpApiUrl(webApiTypes, {
+      params: {
+        appId: this.appId,
+        scope
+      }
+    });
+  }
+  retrieveContentTypesSig(scope, initial) {
+    return this.getSignal(webApiTypes, {
+      params: {
+        appId: this.appId,
+        scope
+      }
+    }, initial);
+  }
+  // TODO: remove this method after upgrade to V2
+  getScopes() {
+    return this.getHttpApiUrl(webApiTypeScopes, {
+      params: {
+        appId: this.appId
+      }
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_1__.map)(scopesData => {
+      // wip during upgrade:
+      const scopes = scopesData.old;
+      const scopeOptions = Object.keys(scopes).map(key => ({
+        name: scopes[key],
+        value: key
+      }));
+      return scopeOptions;
+    }));
+  }
+  getScopesSig(initial) {
+    const scopesSignal = this.getSignal(webApiTypeScopes, {
+      params: {
+        appId: this.appId
+      }
+    }, initial);
+    const scopeOptionsSignal = (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.computed)(() => {
+      const scopesData = scopesSignal();
+      // Add null/undefined check here
+      if (!scopesData || !scopesData.old) {
+        return []; // Return an empty array or handle this case as appropriate
+      }
+      const scopes = scopesData.old;
+      return Object.keys(scopes).map(key => ({
+        name: scopes[key],
+        value: key
+      }));
+    });
+    return scopeOptionsSignal;
+  }
+  getScopesV2() {
+    return this.getHttpApiUrl(webApiTypeScopes, {
+      params: {
+        appId: this.appId
+      }
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_1__.map)(scopesData => scopesData.scopes));
+  }
+  save(contentType) {
+    return this.http.post(this.apiUrl(webApiTypeSave), contentType, {
+      params: {
+        appid: this.appId
+      }
+    });
+  }
+  delete(contentType) {
+    return this.http.delete(this.apiUrl(webApiTypeDelete), {
+      params: {
+        appid: this.appId,
+        staticName: contentType.StaticName
+      }
+    });
+  }
+  import(files) {
+    const formData = new FormData();
+    for (const file of files) {
+      formData.append('File', file);
+    }
+    return this.http.post(this.apiUrl(webApiTypeImport), formData, {
+      params: {
+        appId: this.appId,
+        zoneId: this.zoneId
+      }
+    });
+  }
+  createGhost(sourceStaticName) {
+    return this.http.post(this.apiUrl(webApiTypeAddGhost), null, {
+      params: {
+        appid: this.appId,
+        sourceStaticName
+      }
+    });
+  }
+  static {
+    this.ɵfac = /*@__PURE__*/(() => {
+      let ɵContentTypesService_BaseFactory;
+      return function ContentTypesService_Factory(__ngFactoryType__) {
+        return (ɵContentTypesService_BaseFactory || (ɵContentTypesService_BaseFactory = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetInheritedFactory"](ContentTypesService)))(__ngFactoryType__ || ContentTypesService);
+      };
+    })();
+  }
+  static {
+    this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+      token: ContentTypesService,
+      factory: ContentTypesService.ɵfac
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 71475:
+/*!*****************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/app-administration/services/export-app-parts.service.ts ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ExportAppPartsService: () => (/* binding */ ExportAppPartsService)
+/* harmony export */ });
+/* harmony import */ var _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/services/http-service-base */ 96474);
+/* harmony import */ var _import_app_parts_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./import-app-parts.service */ 58624);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+
+const webApiAppPartsGet = 'admin/appParts/get';
+class ExportAppPartsService extends _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_0__.HttpServiceBase {
+  getContentInfo(scope, initial) {
+    return this.getSignal(webApiAppPartsGet, {
+      params: {
+        appid: this.appId,
+        zoneId: this.zoneId,
+        scope
+      }
+    }, initial);
+  }
+  exportParts(contentTypeIds, entityIds, templateIds) {
+    const url = this.apiUrl(_import_app_parts_service__WEBPACK_IMPORTED_MODULE_1__.webApiAppPartsRoot + 'Export') + '?appId=' + this.appId + '&zoneId=' + this.zoneId + '&contentTypeIdsString=' + contentTypeIds.join(';') + '&entityIdsString=' + entityIds.join(';') + '&templateIdsString=' + templateIds.join(';');
+    window.open(url, '_blank', '');
+  }
+  static {
+    this.ɵfac = /*@__PURE__*/(() => {
+      let ɵExportAppPartsService_BaseFactory;
+      return function ExportAppPartsService_Factory(__ngFactoryType__) {
+        return (ɵExportAppPartsService_BaseFactory || (ɵExportAppPartsService_BaseFactory = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetInheritedFactory"](ExportAppPartsService)))(__ngFactoryType__ || ExportAppPartsService);
+      };
+    })();
+  }
+  static {
+    this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+      token: ExportAppPartsService,
+      factory: ExportAppPartsService.ɵfac
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 320:
+/*!***********************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/app-administration/services/export-app.service.ts ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ExportAppService: () => (/* binding */ ExportAppService)
+/* harmony export */ });
+/* harmony import */ var _import_app_services_import_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../import-app/services/import-app.service */ 71772);
+/* harmony import */ var _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/services/http-service-base */ 96474);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+
+const webApiAppRootStatistics = 'admin/app/Statistics';
+const webApiAppRootSaveData = 'admin/app/SaveData';
+class ExportAppService extends _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__.HttpServiceBase {
+  getAppInfo(initial) {
+    return this.getSignal(webApiAppRootStatistics, {
+      params: {
+        appid: this.appId,
+        zoneId: this.zoneId
+      }
+    }, initial);
+  }
+  /** Generate the export app path. It can be extended with additional parameters */
+  exportAppUrl() {
+    return `${this.apiUrl(`${_import_app_services_import_app_service__WEBPACK_IMPORTED_MODULE_0__.webApiAppRoot}Export`)}?appId=${this.appId}&zoneId=${this.zoneId}`;
+  }
+  exportForVersionControl({
+    includeContentGroups,
+    resetAppGuid,
+    withFiles
+  }) {
+    // return this.get<boolean>(webApiAppRoot + 'SaveData', {
+    return this.getHttpApiUrl(webApiAppRootSaveData, {
+      params: {
+        appid: this.appId,
+        zoneId: this.zoneId,
+        includeContentGroups: includeContentGroups.toString(),
+        resetAppGuid: resetAppGuid.toString(),
+        withPortalFiles: withFiles.toString()
+      }
+    });
+  }
+  static {
+    this.ɵfac = /*@__PURE__*/(() => {
+      let ɵExportAppService_BaseFactory;
+      return function ExportAppService_Factory(__ngFactoryType__) {
+        return (ɵExportAppService_BaseFactory || (ɵExportAppService_BaseFactory = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetInheritedFactory"](ExportAppService)))(__ngFactoryType__ || ExportAppService);
+      };
+    })();
+  }
+  static {
+    this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+      token: ExportAppService,
+      factory: ExportAppService.ɵfac
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 58624:
+/*!*****************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/app-administration/services/import-app-parts.service.ts ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImportAppPartsService: () => (/* binding */ ImportAppPartsService),
+/* harmony export */   webApiAppPartsRoot: () => (/* binding */ webApiAppPartsRoot)
+/* harmony export */ });
+/* harmony import */ var _import_app_services_import_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../import-app/services/import-app.service */ 71772);
+/* harmony import */ var _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/services/http-service-base */ 96474);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+
+const webApiAppPartsRoot = 'admin/appParts/';
+class ImportAppPartsService extends _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__.HttpServiceBase {
+  importAppParts(file) {
+    const formData = new FormData();
+    formData.append('File', file);
+    return this.http.post(this.apiUrl(webApiAppPartsRoot + 'Import'), formData, {
+      params: {
+        appId: this.appId,
+        zoneId: this.zoneId
+      }
+    });
+  }
+  /** Reset the App back to the state it was in the last xml export */
+  resetApp(withFiles) {
+    return this.http.post(this.apiUrl(_import_app_services_import_app_service__WEBPACK_IMPORTED_MODULE_0__.webApiAppRoot + 'Reset'), {}, {
+      params: {
+        appId: this.appId,
+        zoneId: this.zoneId,
+        withPortalFiles: withFiles.toString()
+      }
+    });
+  }
+  static {
+    this.ɵfac = /*@__PURE__*/(() => {
+      let ɵImportAppPartsService_BaseFactory;
+      return function ImportAppPartsService_Factory(__ngFactoryType__) {
+        return (ɵImportAppPartsService_BaseFactory || (ɵImportAppPartsService_BaseFactory = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵgetInheritedFactory"](ImportAppPartsService)))(__ngFactoryType__ || ImportAppPartsService);
+      };
+    })();
+  }
+  static {
+    this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjectable"]({
+      token: ImportAppPartsService,
+      factory: ImportAppPartsService.ɵfac
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 71772:
+/*!***************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/import-app/services/import-app.service.ts ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImportAppService: () => (/* binding */ ImportAppService),
+/* harmony export */   webApiAppRoot: () => (/* binding */ webApiAppRoot)
+/* harmony export */ });
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 36647);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ 59452);
+/* harmony import */ var _shared_components_file_upload_dialog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/components/file-upload-dialog */ 34616);
+/* harmony import */ var _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/services/http-service-base */ 96474);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+
+
+const webApiAppRoot = 'admin/app/';
+class ImportAppService extends _shared_services_http_service_base__WEBPACK_IMPORTED_MODULE_1__.HttpServiceBase {
+  importApp(file, changedName, retryOnDuplicate = false) {
+    const formData = new FormData();
+    formData.append('File', file);
+    formData.append('Name', changedName ?? '');
+    return this.http.post(this.apiUrl(webApiAppRoot + 'Import'), formData, {
+      params: {
+        zoneId: this.zoneId
+      }
+    }).pipe((0,rxjs__WEBPACK_IMPORTED_MODULE_2__.switchMap)(result => {
+      if (retryOnDuplicate && result.Messages[0]?.MessageType === _shared_components_file_upload_dialog__WEBPACK_IMPORTED_MODULE_0__.FileUploadMessageTypes.Warning) {
+        const folderName = prompt(result.Messages[0].Text + ' Would you like to install it using another folder name?');
+        if (folderName) {
+          return this.importApp(file, folderName, true);
+        }
+      }
+      return (0,rxjs__WEBPACK_IMPORTED_MODULE_3__.of)(result);
+    }));
+  }
+  static {
+    this.ɵfac = /*@__PURE__*/(() => {
+      let ɵImportAppService_BaseFactory;
+      return function ImportAppService_Factory(__ngFactoryType__) {
+        return (ɵImportAppService_BaseFactory || (ɵImportAppService_BaseFactory = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetInheritedFactory"](ImportAppService)))(__ngFactoryType__ || ImportAppService);
+      };
+    })();
+  }
+  static {
+    this.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjectable"]({
+      token: ImportAppService,
+      factory: ImportAppService.ɵfac
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 43758:
+/*!**************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/shared/components/field-hint/field-hint.component.ts ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   FieldHintComponent: () => (/* binding */ FieldHintComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 60316);
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/form-field */ 24950);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+
+
+const _c0 = ["*"];
+const _c1 = a0 => ({
+  "hint-box__short": a0
+});
+function FieldHintComponent_Case_1_ng_container_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainer"](0);
+  }
+}
+function FieldHintComponent_Case_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-hint");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, FieldHintComponent_Case_1_ng_container_1_Template, 1, 0, "ng-container", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const content_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", content_r2);
+  }
+}
+function FieldHintComponent_Case_2_ng_container_1_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainer"](0);
+  }
+}
+function FieldHintComponent_Case_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-error");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, FieldHintComponent_Case_2_ng_container_1_Template, 1, 0, "ng-container", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+  }
+  if (rf & 2) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    const content_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngTemplateOutlet", content_r2);
+  }
+}
+function FieldHintComponent_ng_template_3_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojection"](0);
+  }
+}
+class FieldHintComponent {
+  constructor() {
+    this.isError = false;
+    this.isShort = true;
+  }
+  toggleIsShort() {
+    this.isShort = !this.isShort;
+  }
+  static {
+    this.ɵfac = function FieldHintComponent_Factory(__ngFactoryType__) {
+      return new (__ngFactoryType__ || FieldHintComponent)();
+    };
+  }
+  static {
+    this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: FieldHintComponent,
+      selectors: [["app-field-hint"]],
+      inputs: {
+        isError: "isError"
+      },
+      standalone: true,
+      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵStandaloneFeature"]],
+      ngContentSelectors: _c0,
+      decls: 5,
+      vars: 4,
+      consts: [["content", ""], [1, "hint-box", 3, "click", "ngClass"], [4, "ngTemplateOutlet"]],
+      template: function FieldHintComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵprojectionDef"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function FieldHintComponent_Template_div_click_0_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r1);
+            return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx.toggleIsShort());
+          });
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, FieldHintComponent_Case_1_Template, 2, 1, "mat-hint")(2, FieldHintComponent_Case_2_Template, 2, 1, "mat-error");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, FieldHintComponent_ng_template_3_Template, 1, 0, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+        }
+        if (rf & 2) {
+          let tmp_2_0;
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c1, ctx.isShort));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵconditional"]((tmp_2_0 = ctx.isError) === false ? 1 : tmp_2_0 === true ? 2 : -1);
+        }
+      },
+      dependencies: [_angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__.MatFormFieldModule, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__.MatHint, _angular_material_form_field__WEBPACK_IMPORTED_MODULE_1__.MatError, _angular_common__WEBPACK_IMPORTED_MODULE_2__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_2__.NgTemplateOutlet],
+      styles: [".hint-box[_ngcontent-%COMP%] {\n  margin-top: 4px;\n}\n.hint-box[_ngcontent-%COMP%]   .mat-mdc-form-field-hint[_ngcontent-%COMP%], \n.hint-box[_ngcontent-%COMP%]   .mat-mdc-form-field-error[_ngcontent-%COMP%] {\n  font-size: 12px;\n  display: block;\n}\n.hint-box__short[_ngcontent-%COMP%]   .mat-mdc-form-field-hint[_ngcontent-%COMP%], \n.hint-box__short[_ngcontent-%COMP%]   .mat-mdc-form-field-error[_ngcontent-%COMP%] {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3Byb2plY3RzL2Vhdi11aS9zcmMvYXBwL3NoYXJlZC9jb21wb25lbnRzL2ZpZWxkLWhpbnQvZmllbGQtaGludC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGVBQUE7QUFDRjtBQUNFOztFQUVFLGVBQUE7RUFDQSxjQUFBO0FBQ0o7QUFHSTs7RUFFRSxtQkFBQTtFQUNBLGdCQUFBO0VBQ0EsdUJBQUE7QUFETiIsInNvdXJjZXNDb250ZW50IjpbIi5oaW50LWJveCB7XHJcbiAgbWFyZ2luLXRvcDogNHB4O1xyXG5cclxuICAubWF0LW1kYy1mb3JtLWZpZWxkLWhpbnQsXHJcbiAgLm1hdC1tZGMtZm9ybS1maWVsZC1lcnJvciB7XHJcbiAgICBmb250LXNpemU6IDEycHg7XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICB9XHJcblxyXG4gICZfX3Nob3J0IHtcclxuICAgIC5tYXQtbWRjLWZvcm0tZmllbGQtaGludCxcclxuICAgIC5tYXQtbWRjLWZvcm0tZmllbGQtZXJyb3Ige1xyXG4gICAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG4gICAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpcztcclxuICAgIH1cclxuICB9XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */"]
+    });
+  }
+}
+
+/***/ }),
+
+/***/ 5858:
+/*!************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/shared/constants/dropdown-insert-value.constant.ts ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   dropdownInsertValue: () => (/* binding */ dropdownInsertValue)
+/* harmony export */ });
+const dropdownInsertValue = 'DROPDOWN_INSERT_VALUE';
+
+/***/ }),
+
+/***/ 39333:
+/*!***************************************************************************************!*\
+  !*** ./projects/eav-ui/src/app/shared/directives/click-stop-propagation.directive.ts ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ClickStopPropagationDirective: () => (/* binding */ ClickStopPropagationDirective)
+/* harmony export */ });
+/* harmony import */ var _logging__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../logging */ 34435);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 37580);
+
+
+class ClickStopPropagationDirective {
+  // Log constructor to detect that it was really attached/created
+  constructor() {
+    this.log = (0,_logging__WEBPACK_IMPORTED_MODULE_0__.classLog)({
+      ClickStopPropagationDirective
+    });
+    this.log.a('constructor');
+  }
+  onClick(event) {
+    this.log.a('onClick', {
+      event
+    });
+    event.stopPropagation();
+    // This should never be added here, as it's often on a link, and the default behavior (link open) should happen
+    // event.preventDefault();
+  }
+  static {
+    this.ɵfac = function ClickStopPropagationDirective_Factory(__ngFactoryType__) {
+      return new (__ngFactoryType__ || ClickStopPropagationDirective)();
+    };
+  }
+  static {
+    this.ɵdir = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineDirective"]({
+      type: ClickStopPropagationDirective,
+      selectors: [["", "appClickStopPropagation", ""]],
+      hostBindings: function ClickStopPropagationDirective_HostBindings(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ClickStopPropagationDirective_click_HostBindingHandler($event) {
+            return ctx.onClick($event);
+          });
+        }
+      },
+      standalone: true
+    });
+  }
+}
+
+/***/ })
+
+}]);
+//# sourceMappingURL=default-projects_eav-ui_src_app_app-administration_services_content-types_service_ts-projects-c004e7.js.map
