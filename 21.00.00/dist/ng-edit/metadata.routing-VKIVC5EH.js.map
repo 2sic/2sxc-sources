@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/metadata/metadata-dialog.config.ts", "projects/eav-ui/src/app/metadata/metadata.routing.ts"],
-  "sourcesContent": ["import { DialogConfig } from '../shared/models/dialog-config.model';\r\n\r\nexport const metadataDialog: DialogConfig = {\r\n  name: 'METADATA_DIALOG',\r\n  initContext: true,\r\n  panelSize: 'large',\r\n  panelClass: null,\r\n\r\n  async getComponent() {\r\n    const { MetadataComponent } = await import('./metadata');\r\n    return MetadataComponent;\r\n  }\r\n};\r\n", "import { Routes } from '@angular/router';\r\nimport { EditRoutes } from '../edit/edit.routing';\r\nimport { DialogEntryComponent } from '../shared/components/dialog-entry/dialog-entry';\r\nimport { metadataDialog } from './metadata-dialog.config';\r\n\r\nexport const metadataRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    component: DialogEntryComponent,\r\n    data: { dialog: metadataDialog },\r\n    children: EditRoutes\r\n  },\r\n];\r\n"],
-  "mappings": "uTAEO,IAAMA,EAA+B,CAC1CC,KAAM,kBACNC,YAAa,GACbC,UAAW,QACXC,WAAY,KAENC,cAAY,QAAAC,EAAA,sBAChB,GAAM,CAAEC,kBAAAA,CAAiB,EAAK,KAAM,QAAO,wBAAY,EACvD,OAAOA,CACT,KCNK,IAAMC,EAAyB,CACpC,CACEC,KAAM,GACNC,UAAWC,EACXC,KAAM,CAAEC,OAAQC,CAAc,EAC9BC,SAAUC,EACX",
-  "names": ["metadataDialog", "name", "initContext", "panelSize", "panelClass", "getComponent", "__async", "MetadataComponent", "metadataRoutes", "path", "component", "DialogEntryComponent", "data", "dialog", "metadataDialog", "children", "EditRoutes"]
-}

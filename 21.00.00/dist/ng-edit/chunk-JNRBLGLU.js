@@ -1,2 +1,0 @@
-import{d as o}from"./chunk-ENHI5GWA.js";import{Ea as n,ea as a}from"./chunk-46QINP2S.js";var p=(()=>{class t extends o{getHttpApiUrl(e,i){let r=this.apiUrl(e);return this.http.get(r,i??void 0)}static{this.\u0275fac=(()=>{let e;return function(r){return(e||(e=n(t)))(r||t)}})()}static{this.\u0275prov=a({token:t,factory:t.\u0275fac})}}return t})();export{p as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-JNRBLGLU.js.map

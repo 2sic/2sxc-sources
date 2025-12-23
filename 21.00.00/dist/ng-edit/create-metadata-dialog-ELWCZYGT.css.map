@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-items/create-metadata-dialog/create-metadata-dialog.scss"],
-  "sourcesContent": ["mat-slide-toggle {\r\n  margin: 16px 0;\r\n}"],
-  "mappings": "AAAA,wBACE,KAAA",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/components/entity-filter/entity-filter.scss"],
-  "sourcesContent": [":host {\r\n  display: block;\r\n  padding: 16px 12px;\r\n  padding-bottom: 2px;\r\n}\r\n\r\n.mat-mdc-form-field {\r\n  display: block;\r\n  width: 175px;\r\n}\r\n"],
-  "mappings": "AAAA,MACE,QAAA,MADF,QAEE,KAAA,KACA,IAGF,CAAA,mBACE,QAAA,MACA,MAAA",
-  "names": []
-}

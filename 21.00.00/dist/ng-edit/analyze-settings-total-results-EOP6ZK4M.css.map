@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/analyze-settings/analyze-settings-total-results/analyze-settings-total-results.scss"],
-  "sourcesContent": [".no-click {\r\n  cursor: default;\r\n  user-select: initial;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,SACE,OAAA,QACA,oBAAA,QAAA,YAAA",
-  "names": []
-}

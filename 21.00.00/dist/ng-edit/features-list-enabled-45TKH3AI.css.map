@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/apps-management/licence-info/features-list-enabled/features-list-enabled.scss"],
-  "sourcesContent": [":host ::ng-deep {\r\n  .mat-badge-content {\r\n    background-color: grey !important;\r\n  }\r\n}\r\n"],
-  "mappings": "AACE,MAAA,UAAA,CAAA,kBACE,iBAAA",
-  "names": []
-}

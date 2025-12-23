@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/basic/string-default/string-default.scss"],
-  "sourcesContent": [".textarea-field {\r\n  height: auto;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,eACE,OAAA",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/inspect-extension/inspect-extension.scss"],
-  "sourcesContent": [".eav-dialog {\r\n  padding-bottom: 24px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,WACE,eAAA",
-  "names": []
-}

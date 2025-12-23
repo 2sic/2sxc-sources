@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/recycle-bin/recycle-bin.scss"],
-  "sourcesContent": [".outer-container {\r\n  padding: 10px 20px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,gBAAA,QACE,KAAA",
-  "names": []
-}

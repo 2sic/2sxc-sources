@@ -1,2 +1,0 @@
-import{a}from"./chunk-JOP3FE6V.js";import{s}from"./chunk-DX662RXJ.js";var u=class i{static fieldValuesAreEqual(r,e){return!!(r===e||typeof r=="number"&&typeof e=="number"&&isNaN(r)&&isNaN(e)||Array.isArray(r)&&Array.isArray(e)&&a.arraysEqual(r,e))}static getItemValuesChanges(r,e){let t={};for(let n of Object.keys(e)){let o=e[n],f=r[n];i.fieldValuesAreEqual(o,f)||(t[n]=o)}return Object.keys(t).length===0?void 0:t}};var p=s.production?[]:["ViewController"];export{u as a,p as b};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-VHSKZVJN.js.map

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/metadata/metadata-content-type/metadata-content-type.scss"],
-  "sourcesContent": [".container {\r\n  width: fit-content;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,UACE,MAAA",
-  "names": []
-}

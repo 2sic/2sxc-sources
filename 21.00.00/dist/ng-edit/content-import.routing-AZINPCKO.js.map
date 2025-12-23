@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-import/content-import-dialog.config.ts", "projects/eav-ui/src/app/content-import/content-import.routing.ts"],
-  "sourcesContent": ["import { DialogConfig } from '../shared/models/dialog-config.model';\r\n\r\nexport const contentImportDialog: DialogConfig = {\r\n  name: 'IMPORT_CONTENT_TYPE_DIALOG',\r\n  initContext: false,\r\n  panelSize: 'medium',\r\n  panelClass: null,\r\n\r\n  async getComponent() {\r\n    const { ContentImportComponent } = await import('./content-import');\r\n    return ContentImportComponent;\r\n  }\r\n};\r\n\r\nexport interface ContentImportDialogData {\r\n  files?: File[];\r\n}\r\n", "import { Routes } from '@angular/router';\r\nimport { DialogEntryComponent } from '../shared/components/dialog-entry/dialog-entry';\r\nimport { contentImportDialog } from './content-import-dialog.config';\r\n\r\nexport const contentImportRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    component: DialogEntryComponent,\r\n    data: { dialog: contentImportDialog }\r\n  },\r\n];\r\n\r\n"],
-  "mappings": "wPAEO,IAAMA,EAAoC,CAC/CC,KAAM,6BACNC,YAAa,GACbC,UAAW,SACXC,WAAY,KAENC,cAAY,QAAAC,EAAA,sBAChB,GAAM,CAAEC,uBAAAA,CAAsB,EAAK,KAAM,QAAO,8BAAkB,EAClE,OAAOA,CACT,KCPK,IAAMC,EAA8B,CACzC,CACEC,KAAM,GACNC,UAAWC,EACXC,KAAM,CAAEC,OAAQC,CAAmB,EACpC",
-  "names": ["contentImportDialog", "name", "initContext", "panelSize", "panelClass", "getComponent", "__async", "ContentImportComponent", "contentImportRoutes", "path", "component", "DialogEntryComponent", "data", "dialog", "contentImportDialog"]
-}

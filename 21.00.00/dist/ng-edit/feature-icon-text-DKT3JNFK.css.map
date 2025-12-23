@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/features/feature-icon-text/feature-icon-text.scss"],
-  "sourcesContent": [".feature-icon-text {\r\n  font-size: small;\r\n}"],
-  "mappings": "AAAA,CAAA,kBACE,UAAA",
-  "names": []
-}

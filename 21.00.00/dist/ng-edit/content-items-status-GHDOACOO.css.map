@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-items/content-items-status/content-items-status.scss"],
-  "sourcesContent": [".hide-until-row-hover {\r\n  visibility: hidden;\r\n}\r\n\r\n::ng-deep .ag-row-hover .hide-until-row-hover {\r\n  visibility: visible;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,qBACE,WAAA,OAGF,UAAA,CAAA,aAAA,CAJA,qBAKE,WAAA",
-  "names": []
-}

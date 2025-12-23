@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-import/content-import.scss"],
-  "sourcesContent": [".eav-radio-group-label {\r\n  font-size: 18px;\r\n  margin: 24px 0 0;\r\n}\r\n\r\n.eav-radio-group {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 8px 0;\r\n}\r\n\r\n.eav-hint {\r\n  font-size: 18px;\r\n  margin-top: 24px;\r\n  margin-bottom: 16px;\r\n}\r\n\r\n.eav-evaluation {\r\n  &__title {\r\n    font-size: 18px;\r\n    margin: 24px 0 0;\r\n    font-weight: bold;\r\n  }\r\n\r\n  &__content {\r\n    font-size: 14px;\r\n\r\n    li {\r\n      padding: 2px 0;\r\n    }\r\n  }\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,sBACE,UAAA,KADF,OAEE,KAAA,EAAA,EAGF,CAAA,gBACE,QAAA,KACA,eAAA,OAPF,OAQE,IAAA,EAGF,CAAA,SACE,UAAA,KACA,WAAA,KACA,cAAA,KAIA,CAAA,sBACE,UAAA,KAnBJ,OAoBI,KAAA,EAAA,EACA,YAAA,IAGF,CAAA,wBACE,UAAA,KAEA,CAHF,wBAGE,GA3BJ,QA4BM,IAAA",
-  "names": []
-}

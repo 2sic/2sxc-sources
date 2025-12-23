@@ -1,2 +1,0 @@
-import{_ as o}from"./chunk-DX662RXJ.js";import{Aa as p,Gc as n,a as u}from"./chunk-46QINP2S.js";function l(e,t){let r=p(t,{equal:o,debugName:e});return c(e,r)}function d(e,t){let r=n(t,{equal:o,debugName:e});return c(e,r)}function c(e,t){if(!t)return t;let r=t;return r.debugName=e,r[u]&&(r[u].debugName=e),t}function a(e,t){let r=t;return n(()=>{let i=e(r);return r=i,i},{equal:o})}function b(e){return e?e[u]?.version??null:null}export{l as a,d as b,a as c,b as d};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-RGKBOUPL.js.map

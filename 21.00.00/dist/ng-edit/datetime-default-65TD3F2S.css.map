@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/basic/datetime-default/datetime-default.scss"],
-  "sourcesContent": ["// The Date and Timepicker input fields are hidden because the result gets merged into a third input field\r\n.hidden-picker-input {\r\n  display: none;\r\n}\r\n\r\n// Set Timepicker to the right\r\n::ng-deep .mat-timepicker-panel {\r\n  --mat-option-selected-state-label-text-color: black;\r\n  max-width: 10rem !important;\r\n  position: absolute !important;\r\n  right: 0 !important;\r\n}\r\n\r\n::ng-deep .cdk-overlay-pane:has(.mat-timepicker-panel) {\r\n  position: relative !important;\r\n}\r\n// Datepicker is set to the right using xPosition=\"end\" on the picker element itself"],
-  "mappings": "AACA,CAAA,oBACE,QAAA,KAIF,UAAA,CAAA,qBACE,8CAAA,MACA,UAAA,gBACA,SAAA,mBACA,MAAA,YAGF,UAAA,CAAA,gBAAA,KAAA,CAPA,sBAQE,SAAA",
-  "names": []
-}

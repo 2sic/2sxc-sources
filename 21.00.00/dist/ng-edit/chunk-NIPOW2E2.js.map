@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/directives/base.directive.ts"],
-  "sourcesContent": ["import { Directive, OnDestroy } from '@angular/core';\r\nimport { Subscription } from 'rxjs';\r\n\r\n@Directive()\r\n// tslint:disable-next-line:directive-class-suffix\r\nexport abstract class BaseDirective implements OnDestroy {\r\n  /** Holds all subscriptions to be unsubscribed on destroy */\r\n  protected subscriptions = new Subscription();\r\n\r\n  constructor() {\r\n  }\r\n\r\n  ngOnDestroy() {\r\n    this.subscriptions.unsubscribe();\r\n  }\r\n}\r\n"],
-  "mappings": "gDAKA,IAAsBA,GAAa,IAAA,CAA7B,MAAgBA,CAAa,CAIjCC,aAAA,CAFU,KAAAC,cAAgB,IAAIC,CAG9B,CAEAC,aAAW,CACT,KAAKF,cAAcG,YAAW,CAChC,iDAToBL,EAAa,CAAA,+BAAbA,CAAa,CAAA,CAAA,SAAbA,CAAa,GAAA",
-  "names": ["BaseDirective", "constructor", "subscriptions", "Subscription", "ngOnDestroy", "unsubscribe"]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/localization/snack-bar-warning-demo/snack-bar-warning-demo.scss"],
-  "sourcesContent": ["// ng-deep is necesary beacuse tag a is in html stored in i18n file\r\n::ng-deep .snack-bar-warning-demo-white-hyperlink a {\r\n  color: white;\r\n  text-decoration: underline;\r\n}"],
-  "mappings": "AACA,UAAA,CAAA,uCAAA,EACE,MAAA,KACA,gBAAA",
-  "names": []
-}

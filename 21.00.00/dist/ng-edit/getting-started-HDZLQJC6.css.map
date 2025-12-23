@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/getting-started/getting-started.scss"],
-  "sourcesContent": [".iframe {\r\n  border: none;\r\n  width: 100%;\r\n  height: calc(100vh - 130px);\r\n\r\n  @media (max-width: 600px) {\r\n    height: calc(100vh - 161px);\r\n  }\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,OACE,OAAA,KACA,MAAA,KACA,OAAA,KAAA,MAAA,EAAA,OAEA,OAAA,UAAA,OALF,CAAA,OAMI,OAAA,KAAA,MAAA,EAAA",
-  "names": []
-}

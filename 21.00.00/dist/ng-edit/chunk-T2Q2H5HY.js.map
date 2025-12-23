@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/constants/dialog-type.constants.ts"],
-  "sourcesContent": ["export const DialogTypeConstants = {\r\n  Zone: 'zone',\r\n  Apps: 'apps',\r\n  AppImport: 'app-import',\r\n  App: 'app',\r\n  ContentType: 'contenttype',\r\n  ContentItems: 'contentitems',\r\n  Edit: 'edit',\r\n  ItemHistory: 'item-history',\r\n  Develop: 'develop',\r\n  PipelineDesigner: 'pipeline-designer',\r\n  Replace: 'replace',\r\n  InstanceList: 'instance-list',\r\n} as const /* the as const ensures that the keys/values can be strictly checked */;\r\n"],
-  "mappings": "AAAO,IAAMA,EAAsB,CACjCC,KAAM,OACNC,KAAM,OACNC,UAAW,aACXC,IAAK,MACLC,YAAa,cACbC,aAAc,eACdC,KAAM,OACNC,YAAa,eACbC,QAAS,UACTC,iBAAkB,oBAClBC,QAAS,UACTC,aAAc",
-  "names": ["DialogTypeConstants", "Zone", "Apps", "AppImport", "App", "ContentType", "ContentItems", "Edit", "ItemHistory", "Develop", "PipelineDesigner", "Replace", "InstanceList"]
-}

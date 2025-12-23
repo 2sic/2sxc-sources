@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/app-extensions/extension-actions/extension-actions.scss"],
-  "sourcesContent": [".actions-component {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  gap: 8px;\r\n}\r\n\r\n.actions-row {\r\n  display: flex;\r\n  flex-direction: row;\r\n  gap: 4px;\r\n}\r\n\r\n.disabled {\r\n  opacity: 0.5;\r\n  pointer-events: none;\r\n}"],
-  "mappings": "AAAA,CAAA,kBACE,QAAA,KACA,eAAA,OACA,gBAAA,OACA,IAAA,IAGF,CAAA,YACE,QAAA,KACA,eAAA,IACA,IAAA,IAGF,CAAA,SACE,QAAA,GACA,eAAA",
-  "names": []
-}

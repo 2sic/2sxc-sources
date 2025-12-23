@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/dev-rest/data/data.scss"],
-  "sourcesContent": ["mat-spinner {\r\n  margin: 50px auto;\r\n  display: block;\r\n}\r\n"],
-  "mappings": "AAAA,mBACE,KAAA,KACA,QAAA",
-  "names": []
-}

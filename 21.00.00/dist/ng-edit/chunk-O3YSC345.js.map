@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/helpers/file-to-base64.helper.ts"],
-  "sourcesContent": ["export function toBase64(file: File): Promise<string> {\r\n  return new Promise((resolve, reject) => {\r\n    const reader = new FileReader();\r\n    reader.readAsDataURL(file);\r\n    reader.onload = () => {\r\n      resolve((reader.result as string).split(',')[1]);\r\n    };\r\n    reader.onerror = error => {\r\n      reject(error);\r\n    };\r\n  });\r\n}\r\n\r\nexport function toString(file: File): Promise<string> {\r\n  return new Promise((resolve, reject) => {\r\n    const reader = new FileReader();\r\n    reader.readAsText(file);\r\n    reader.onload = () => {\r\n      resolve(reader.result as string);\r\n    };\r\n    reader.onerror = error => {\r\n      reject(error);\r\n    };\r\n  });\r\n}\r\n"],
-  "mappings": "AAAM,SAAUA,EAASC,EAAU,CACjC,OAAO,IAAIC,QAAQ,CAACC,EAASC,IAAU,CACrC,IAAMC,EAAS,IAAIC,WACnBD,EAAOE,cAAcN,CAAI,EACzBI,EAAOG,OAAS,IAAK,CACnBL,EAASE,EAAOI,OAAkBC,MAAM,GAAG,EAAE,CAAC,CAAC,CACjD,EACAL,EAAOM,QAAUC,GAAQ,CACvBR,EAAOQ,CAAK,CACd,CACF,CAAC,CACH,CAEM,SAAUC,EAASZ,EAAU,CACjC,OAAO,IAAIC,QAAQ,CAACC,EAASC,IAAU,CACrC,IAAMC,EAAS,IAAIC,WACnBD,EAAOS,WAAWb,CAAI,EACtBI,EAAOG,OAAS,IAAK,CACnBL,EAAQE,EAAOI,MAAgB,CACjC,EACAJ,EAAOM,QAAUC,GAAQ,CACvBR,EAAOQ,CAAK,CACd,CACF,CAAC,CACH",
-  "names": ["toBase64", "file", "Promise", "resolve", "reject", "reader", "FileReader", "readAsDataURL", "onload", "result", "split", "onerror", "error", "toString", "readAsText"]
-}

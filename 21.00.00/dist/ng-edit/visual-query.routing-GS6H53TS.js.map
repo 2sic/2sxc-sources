@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/visual-query/visual-query.routing.ts"],
-  "sourcesContent": ["import { Routes } from '@angular/router';\r\nimport { GoToDevRest } from '../dev-rest';\r\nimport { EditRoutesNoHistory } from '../edit/edit.routing';\r\n\r\nexport const visualQueryRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    loadComponent: () => import('./visual-query').then(m => m.VisualQueryComponent),\r\n    children: [\r\n      GoToDevRest.route,\r\n      ...EditRoutesNoHistory,\r\n    ]\r\n  },\r\n];\r\n\r\n"],
-  "mappings": "olDAIO,IAAMA,EAA4B,CACvC,CACEC,KAAM,GACNC,cAAeA,IAAM,OAAO,4BAAgB,EAAEC,KAAKC,GAAKA,EAAEC,oBAAoB,EAC9EC,SAAU,CACRC,EAAYC,MACZ,GAAGC,CAAmB,EAEzB",
-  "names": ["visualQueryRoutes", "path", "loadComponent", "then", "m", "VisualQueryComponent", "children", "GoToDevRest", "route", "EditRoutesNoHistory"]
-}

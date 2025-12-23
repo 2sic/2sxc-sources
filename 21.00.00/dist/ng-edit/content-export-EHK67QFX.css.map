@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-export/content-export.scss"],
-  "sourcesContent": [".eav-radio-group-label {\r\n  font-size: 18px;\r\n  margin: 24px 0 0;\r\n}\r\n\r\n.eav-radio-group {\r\n  display: flex;\r\n  flex-direction: column;\r\n  margin: 8px 0;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,sBACE,UAAA,KADF,OAEE,KAAA,EAAA,EAGF,CAAA,gBACE,QAAA,KACA,eAAA,OAPF,OAQE,IAAA",
-  "names": []
-}

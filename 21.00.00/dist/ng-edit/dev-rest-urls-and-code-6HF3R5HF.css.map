@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/dev-rest/dev-rest-all.scss"],
-  "sourcesContent": ["// the first one is needed so <code> coloring works in dynamic injected html (tips etc.)\r\n:host ::ng-deep code,\r\ncode,\r\npre {\r\n  padding-left: 2px;\r\n  padding-right: 2px;\r\n  background-color: #eeeeee;\r\n}\r\n\r\npre {\r\n  white-space: pre-wrap;\r\n  word-break: keep-all;\r\n}\r\n\r\n.rest-urls-accordion {\r\n  display: block;\r\n  margin: 8px;\r\n}\r\n\r\n.rest-urls-title {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.code-example {\r\n  position: relative;\r\n\r\n  &__text {\r\n    min-height: 40px;\r\n  }\r\n\r\n  &__copy {\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n  }\r\n}\r\n\r\n.params-form {\r\n  display: flex;\r\n  max-width: 600px;\r\n\r\n  .mat-mdc-form-field:not(:first-of-type) {\r\n    margin-left: 8px;\r\n  }\r\n}\r\n\r\n.form-with-textarea {\r\n  max-width: 600px;\r\n}\r\n"],
-  "mappings": "AACA,MAAA,UAAA,KAAA,KAAA,IAGE,aAAA,IACA,cAAA,IACA,iBAAA,KAGF,IACE,YAAA,SACA,WAAA,SAGF,CAAA,oBACE,QAAA,MAdF,OAeE,IAGF,CAAA,gBACE,QAAA,KACA,YAAA,OAGF,CAAA,aACE,SAAA,SAEA,CAAA,mBACE,WAAA,KAGF,CAAA,mBACE,SAAA,SACA,IAAA,EACA,MAAA,EAIJ,CAAA,YACE,QAAA,KACA,UAAA,MAEA,CAJF,YAIE,CAAA,kBAAA,KAAA,gBACE,YAAA,IAIJ,CAAA,mBACE,UAAA",
-  "names": []
-}

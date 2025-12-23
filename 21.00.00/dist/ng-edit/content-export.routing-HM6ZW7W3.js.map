@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-export/content-export-dialog.config.ts", "projects/eav-ui/src/app/content-export/content-export.routing.ts"],
-  "sourcesContent": ["import { DialogConfig } from '../shared/models/dialog-config.model';\r\n\r\nexport const contentExportDialog: DialogConfig = {\r\n  name: 'EXPORT_CONTENT_TYPE_DIALOG',\r\n  initContext: true,\r\n  panelSize: 'medium',\r\n  panelClass: null,\r\n\r\n  async getComponent() {\r\n    const { ContentExportComponent } = await import('./content-export');\r\n    return ContentExportComponent;\r\n  }\r\n};\r\n", "import { Routes } from '@angular/router';\r\nimport { DialogEntryComponent } from '../shared/components/dialog-entry/dialog-entry';\r\nimport { contentExportDialog } from './content-export-dialog.config';\r\n\r\nexport const ContentExportRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    component: DialogEntryComponent,\r\n    data: { dialog: contentExportDialog }\r\n  },\r\n];\r\n"],
-  "mappings": "wPAEO,IAAMA,EAAoC,CAC/CC,KAAM,6BACNC,YAAa,GACbC,UAAW,SACXC,WAAY,KAENC,cAAY,QAAAC,EAAA,sBAChB,GAAM,CAAEC,uBAAAA,CAAsB,EAAK,KAAM,QAAO,8BAAkB,EAClE,OAAOA,CACT,KCPK,IAAMC,EAA8B,CACzC,CACEC,KAAM,GACNC,UAAWC,EACXC,KAAM,CAAEC,OAAQC,CAAmB,EACpC",
-  "names": ["contentExportDialog", "name", "initContext", "panelSize", "panelClass", "getComponent", "__async", "ContentExportComponent", "ContentExportRoutes", "path", "component", "DialogEntryComponent", "data", "dialog", "contentExportDialog"]
-}

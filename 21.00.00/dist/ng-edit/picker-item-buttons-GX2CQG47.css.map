@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/picker/picker-item-buttons/picker-item-buttons.scss"],
-  "sourcesContent": [".picker-inline-button {\r\n  scale: calc(4/5);\r\n  margin-left: -4px;\r\n  margin-right: -4px;\r\n}"],
-  "mappings": "AAAA,CAAA,qBACE,MAAA,GACA,YAAA,KACA,aAAA",
-  "names": []
-}

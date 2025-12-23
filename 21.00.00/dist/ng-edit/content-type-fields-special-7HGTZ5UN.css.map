@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-type-fields/content-type-fields-special/content-type-fields-special.scss"],
-  "sourcesContent": ["mat-icon {\r\n  font-size: 20px;\r\n  width: 20px;\r\n  height: 20px;\r\n}\r\n"],
-  "mappings": "AAAA,SACE,UAAA,KACA,MAAA,KACA,OAAA",
-  "names": []
-}

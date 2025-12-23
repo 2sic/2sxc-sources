@@ -1,2 +1,0 @@
-import{a as n}from"./chunk-GEYEBE5H.js";import{a as t}from"./chunk-GVW7AWVE.js";import{g as o}from"./chunk-BDOJB7O2.js";var e={name:"SET_PERMISSIONS_DIALOG",initContext:!0,panelSize:"large",panelClass:null,getComponent(){return o(this,null,function*(){let{PermissionsComponent:i}=yield import("./permissions-4QL54ELT.js");return i})}};var l=[{path:"",component:t,data:{dialog:e},children:n}];export{l as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-RRABFPYC.js.map

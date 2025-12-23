@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/dev-rest/header-selector.scss"],
-  "sourcesContent": [".selector {\r\n  width: 400px;\r\n  max-width: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n\r\n  &__dropdown {\r\n    flex: 1 1 auto;\r\n  }\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,SACE,MAAA,MACA,UAAA,KACA,QAAA,KACA,YAAA,OAEA,CAAA,mBACE,KAAA,EAAA,EAAA",
-  "names": []
-}

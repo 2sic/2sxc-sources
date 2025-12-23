@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/components/boolean-filter/boolean-filter.scss"],
-  "sourcesContent": [".mat-mdc-radio-group {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  overflow: hidden;\r\n  padding: 12px;\r\n  width: 160px;\r\n  height: 104px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,oBACE,QAAA,KACA,eAAA,OACA,gBAAA,cACA,SAAA,OAJF,QAKE,KACA,MAAA,MACA,OAAA",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/entity-form/entity-form-builder/form-builder.scss"],
-  "sourcesContent": [".dynamic-form {\r\n  margin-bottom: 8px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,aACE,cAAA",
-  "names": []
-}

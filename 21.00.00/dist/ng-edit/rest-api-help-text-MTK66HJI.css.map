@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/components/rest-api-help-text/rest-api-help-text.scss"],
-  "sourcesContent": [".rest-helper-container {\r\n  display: flex;\r\n  justify-content: center;\r\n  margin-top: 64px;\r\n}\r\n\r\n.help-info-card-text {\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: center;\r\n  color: gray;\r\n  width: 30vw;\r\n  max-width: 400px;\r\n  min-width: 180px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,sBACE,QAAA,KACA,gBAAA,OACA,WAAA,KAGF,CAAA,oBACE,QAAA,KACA,eAAA,OACA,WAAA,OACA,MAAA,KACA,MAAA,KACA,UAAA,MACA,UAAA",
-  "names": []
-}

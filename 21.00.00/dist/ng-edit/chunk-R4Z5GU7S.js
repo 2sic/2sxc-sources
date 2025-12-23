@@ -1,2 +1,0 @@
-import{U as o,z as n}from"./chunk-DX662RXJ.js";function i(e,t){for(var r=-1,u=e==null?0:e.length;++r<u&&t(e[r],r,e)!==!1;);return e}var a=i;var f=Object.create,c=(function(){function e(){}return function(t){if(!n(t))return{};if(f)return f(t);e.prototype=t;var r=new e;return e.prototype=void 0,r}})(),d=c;var l=o(Object.getPrototypeOf,Object),g=l;export{a,d as b,g as c};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-R4Z5GU7S.js.map

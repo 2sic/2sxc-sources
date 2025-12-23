@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/wrappers/group/collapsible-wrapper.scss"],
-  "sourcesContent": ["$border-radius: 8px;\r\n\r\n.eav-card-content-group-child {\r\n  padding: 0px;\r\n}\r\n\r\n.eav-card-group-child {\r\n  padding: 0;\r\n  margin: 0 0 8px 0;\r\n  border-radius: $border-radius;\r\n}\r\n\r\n.eav-card-header-group-child {\r\n  padding: 20px 32px;\r\n  border-radius: $border-radius;\r\n\r\n  .title-arrow {\r\n    margin-right: 6px;\r\n  }\r\n\r\n  .title {\r\n    font-size: 16px;\r\n    font-weight: 400;\r\n  }\r\n}\r\n\r\n.mat-mdc-card-content {\r\n  .description {\r\n    font-size: 14px;\r\n    padding-left: 16px;\r\n    padding-right: 16px;\r\n    margin-top: -14px;\r\n    margin-bottom: 14px;\r\n  }\r\n}\r\n\r\n.eav-card-title-group {\r\n  margin: 0;\r\n  cursor: pointer;\r\n  line-height: 20px;\r\n  color: #002753;\r\n}\r\n\r\n.mat-icon {\r\n  font-size: 20px;\r\n  width: 20px;\r\n  height: 20px;\r\n  line-height: 20px !important;\r\n}\r\n\r\n.eav-layout-grid {\r\n  padding: 16px;\r\n  padding-top: 0;\r\n}\r\n\r\n.my-title-bar {\r\n  display: flex;\r\n}"],
-  "mappings": "AAEA,CAAA,6BAAA,QACE,EAGF,CAAA,qBAJA,QAKE,EALF,OAME,EAAA,EAAA,IANF,cAFgB,IAYhB,CAAA,4BAVA,QAWE,KAAA,KAXF,cAFgB,IAgBd,CAJF,4BAIE,CAAA,YACE,aAAA,IAGF,CARF,4BAQE,CAAA,MACE,UAAA,KACA,YAAA,IAKF,CAAA,qBAAA,CAAA,YACE,UAAA,KACA,aAAA,KACA,cAAA,KACA,WAAA,MACA,cAAA,KAIJ,CAAA,qBAlCA,OAmCE,EACA,OAAA,QACA,YAAA,KACA,MAAA,QAGF,CAAA,SACE,UAAA,KACA,MAAA,KACA,OAAA,KACA,YAAA,eAGF,CAAA,gBAhDA,QAkDE,EADA,UAIF,CAAA,aACE,QAAA",
-  "names": []
-}

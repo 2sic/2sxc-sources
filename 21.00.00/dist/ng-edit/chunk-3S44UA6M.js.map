@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/constants/default-grid-options.constants.ts"],
-  "sourcesContent": ["import { GridOptions } from '@ag-grid-community/core';\r\n\r\nexport const defaultGridOptions: GridOptions = {\r\n  accentedSort: true,\r\n  animateRows: true,\r\n  enableCellTextSelection: true,\r\n  headerHeight: 32,\r\n  suppressScrollOnNewData: true,\r\n  valueCache: true,\r\n  defaultColDef: { filterParams: { newRowsAction: 'keep' } },\r\n  tooltipShowDelay: 0,\r\n  tooltipHideDelay: 100000,\r\n  suppressMovableColumns: true,\r\n} as const;\r\n"],
-  "mappings": "AAEO,IAAMA,EAAkC,CAC7CC,aAAc,GACdC,YAAa,GACbC,wBAAyB,GACzBC,aAAc,GACdC,wBAAyB,GACzBC,WAAY,GACZC,cAAe,CAAEC,aAAc,CAAEC,cAAe,MAAM,CAAE,EACxDC,iBAAkB,EAClBC,iBAAkB,IAClBC,uBAAwB",
-  "names": ["defaultGridOptions", "accentedSort", "animateRows", "enableCellTextSelection", "headerHeight", "suppressScrollOnNewData", "valueCache", "defaultColDef", "filterParams", "newRowsAction", "tooltipShowDelay", "tooltipHideDelay", "suppressMovableColumns"]
-}

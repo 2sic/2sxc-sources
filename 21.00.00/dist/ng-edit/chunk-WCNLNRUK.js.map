@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/directives/click-stop-propagation.directive.ts"],
-  "sourcesContent": ["import { Directive, HostListener } from '@angular/core';\r\nimport { classLog } from '../logging';\r\n\r\n@Directive({\r\n  selector: '[appClickStopPropagation]',\r\n})\r\nexport class ClickStopPropagationDirective {\r\n\r\n  log = classLog({ClickStopPropagationDirective});\r\n\r\n  // Log constructor to detect that it was really attached/created\r\n  constructor() {\r\n    this.log.a('constructor');\r\n  }\r\n\r\n  @HostListener('click', ['$event'])\r\n  onClick(event: MouseEvent): void {\r\n    this.log.a('onClick', { event });\r\n    event.stopPropagation();\r\n\r\n    // This should never be added here, as it's often on a link, and the default behavior (link open) should happen\r\n    // event.preventDefault();\r\n  }\r\n\r\n}\r\n"],
-  "mappings": "0FAMA,IAAaA,GAA6B,IAAA,CAApC,MAAOA,CAA6B,CAKxCC,aAAA,CAHA,KAAAC,IAAMC,EAAS,CAACH,8BAAAA,CAA6B,CAAC,EAI5C,KAAKE,IAAIE,EAAE,aAAa,CAC1B,CAGAC,QAAQC,EAAiB,CACvB,KAAKJ,IAAIE,EAAE,UAAW,CAAEE,MAAAA,CAAK,CAAE,EAC/BA,EAAMC,gBAAe,CAIvB,iDAhBWP,EAA6B,CAAA,+BAA7BA,EAA6BQ,UAAA,CAAA,CAAA,GAAA,0BAAA,EAAA,CAAA,EAAAC,aAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,GAA7BE,EAAA,QAAA,SAAAC,EAAA,CAAA,OAAAF,EAAAN,QAAAQ,CAAA,CAAe,CAAA,aAAfb,CAA6B,GAAA",
-  "names": ["ClickStopPropagationDirective", "constructor", "log", "classLog", "a", "onClick", "event", "stopPropagation", "selectors", "hostBindings", "rf", "ctx", "\u0275\u0275listener", "$event"]
-}

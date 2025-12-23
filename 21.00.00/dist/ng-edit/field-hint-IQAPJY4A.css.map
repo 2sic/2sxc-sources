@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/components/field-hint/field-hint.scss"],
-  "sourcesContent": [".hint-box {\r\n  margin-top: 4px;\r\n\r\n  .mat-mdc-form-field-hint,\r\n  .mat-mdc-form-field-error {\r\n    font-size: 12px;\r\n    display: block;\r\n  }\r\n\r\n  &__short {\r\n    .mat-mdc-form-field-hint,\r\n    .mat-mdc-form-field-error {\r\n      white-space: nowrap;\r\n      overflow: hidden;\r\n      text-overflow: ellipsis;\r\n    }\r\n  }\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,SACE,WAAA,IAEA,CAHF,SAGE,CAAA,wBAAA,CAHF,SAGE,CAAA,yBAEE,UAAA,KACA,QAAA,MAIA,CAAA,gBAAA,CAPF,wBAOE,CAAA,gBAAA,CAPF,yBASI,YAAA,OACA,SAAA,OACA,cAAA",
-  "names": []
-}

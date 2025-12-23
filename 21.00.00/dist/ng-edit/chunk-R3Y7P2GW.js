@@ -1,2 +1,0 @@
-import{b as r,ea as s}from"./chunk-46QINP2S.js";var c=(()=>{class t{constructor(){this.subscriptions=new r}ngOnDestroy(){this.destroy()}destroy(){this.subscriptions.unsubscribe()}static{this.\u0275fac=function(i){return new(i||t)}}static{this.\u0275prov=s({token:t,factory:t.\u0275fac})}}return t})();export{c as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-R3Y7P2GW.js.map

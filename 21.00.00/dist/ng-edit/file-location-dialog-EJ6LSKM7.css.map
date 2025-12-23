@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/create-file-dialog/file-location-dialog/file-location-dialog.scss"],
-  "sourcesContent": [".eav-card-action-button {\r\n  margin-left: 8px;\r\n}"],
-  "mappings": "AAAA,CAAA,uBACE,YAAA",
-  "names": []
-}

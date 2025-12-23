@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/services/service-base.ts"],
-  "sourcesContent": ["import { Injectable, OnDestroy } from '@angular/core';\r\nimport { Subscription } from 'rxjs';\r\n\r\n/**\r\n * Base class for services - just to standardize use of subscriptions.\r\n * Has @Injectable() just to allow it ot use the standard OnDestroy interface.\r\n */\r\n@Injectable()\r\nexport abstract class ServiceBase implements OnDestroy {\r\n\r\n  protected subscriptions = new Subscription();\r\n\r\n  ngOnDestroy(): void {\r\n    this.destroy();\r\n  }\r\n\r\n  // TODO: TRY TO GET RID OF THIS. AFAIK it's just used in the mask, which should switch over to signals.\r\n  destroy() {\r\n    this.subscriptions.unsubscribe();\r\n  }\r\n}\r\n"],
-  "mappings": "gDAQA,IAAsBA,GAAW,IAAA,CAA3B,MAAgBA,CAAW,CADjCC,aAAA,CAGY,KAAAC,cAAgB,IAAIC,EAE9BC,aAAW,CACT,KAAKC,QAAO,CACd,CAGAA,SAAO,CACL,KAAKH,cAAcI,YAAW,CAChC,iDAXoBN,EAAW,CAAA,iCAAXA,EAAWO,QAAXP,EAAWQ,SAAA,CAAA,CAAA,SAAXR,CAAW,GAAA",
-  "names": ["ServiceBase", "constructor", "subscriptions", "Subscription", "ngOnDestroy", "destroy", "unsubscribe", "factory", "\u0275fac"]
-}

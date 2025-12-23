@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-type-fields/content-type-fields-actions/content-type-fields-actions.scss"],
-  "sourcesContent": [".eav-hover-icon {\r\n  display: none;\r\n}\r\n\r\n.eav-hover-icon-div:hover .eav-hover-icon {\r\n  display: block;\r\n}"],
-  "mappings": "AAAA,CAAA,eACE,QAAA,KAGF,CAAA,kBAAA,OAAA,CAJA,eAKE,QAAA",
-  "names": []
-}

@@ -1,2 +1,0 @@
-import{a as c}from"./chunk-K5FCDENP.js";import{c as i}from"./chunk-HCPBPEHV.js";import{ea as r,ia as a}from"./chunk-46QINP2S.js";var f=(()=>{class o{constructor(t){this.snackBar=t}copyToClipboard(t){c(t),this.snackBar.open("Copied to clipboard",null,{duration:2e3})}static{this.\u0275fac=function(n){return new(n||o)(a(i))}}static{this.\u0275prov=r({token:o,factory:o.\u0275fac,providedIn:"root"})}}return o})();export{f as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-BTK5NHS7.js.map

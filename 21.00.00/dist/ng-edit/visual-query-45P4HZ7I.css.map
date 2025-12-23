@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/visual-query/visual-query.scss"],
-  "sourcesContent": [".editor-side-toolbar {\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,oBACE,QAAA,KACA,eAAA",
-  "names": []
-}

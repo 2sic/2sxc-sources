@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/monaco-editor/monaco-editor.scss"],
-  "sourcesContent": [":host {\r\n  display: block;\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n\r\n.editor {\r\n  width: 100%;\r\n  height: 100%;\r\n  overflow: hidden;\r\n}\r\n"],
-  "mappings": "AAAA,MACE,QAAA,MACA,MAAA,KACA,OAAA,KACA,SAAA,OAGF,CAAA,OACE,MAAA,KACA,OAAA,KACA,SAAA",
-  "names": []
-}

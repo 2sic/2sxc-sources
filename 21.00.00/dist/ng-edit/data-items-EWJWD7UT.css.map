@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/app-administration/data/data-items/data-items.scss"],
-  "sourcesContent": [".text-icon {\r\n  width: 24px;\r\n  height: 24px;\r\n  font-size: 12px;\r\n  line-height: 22px;\r\n  text-align: center;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  white-space: nowrap;\r\n  border: 1px solid rgba(29, 39, 61, 0.44);\r\n  border-radius: 12px;\r\n  box-sizing: border-box;\r\n  background-color: #002753;\r\n  color: white;\r\n  user-select: none;\r\n}\r\n\r\n.text-icon {\r\n  min-width: 24px;\r\n  width: initial;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,UACE,MAAA,KACA,OAAA,KACA,UAAA,KACA,YAAA,KACA,WAAA,OACA,SAAA,OACA,cAAA,SACA,YAAA,OACA,OAAA,IAAA,MAAA,KAAA,EAAA,CAAA,EAAA,CAAA,EAAA,CAAA,KATF,cAUE,KACA,WAAA,WACA,iBAAA,QACA,MAAA,KACA,oBAAA,KAAA,YAAA,KAGF,CAjBA,UAkBE,UAAA,KACA,MAAA",
-  "names": []
-}

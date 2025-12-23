@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/item-history/item-history-dialog.config.ts", "projects/eav-ui/src/app/item-history/item-history.routing.ts"],
-  "sourcesContent": ["import { DialogConfig } from '../shared/models/dialog-config.model';\r\n\r\nexport const itemHistoryDialog: DialogConfig = {\r\n  name: 'ITEM_HISTORY_DIALOG',\r\n  initContext: true,\r\n  panelSize: 'medium',\r\n  panelClass: null,\r\n\r\n  async getComponent() {\r\n    const { ItemHistoryComponent } = await import('./item-history');\r\n    return ItemHistoryComponent;\r\n  }\r\n};\r\n", "import { Routes } from '@angular/router';\r\nimport { DialogEntryComponent } from '../shared/components/dialog-entry/dialog-entry';\r\nimport { itemHistoryDialog } from './item-history-dialog.config';\r\n\r\nexport const historyRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    component: DialogEntryComponent,\r\n    data: { dialog: itemHistoryDialog, title: 'Item History' }\r\n  },\r\n];\r\n"],
-  "mappings": "wPAEO,IAAMA,EAAkC,CAC7CC,KAAM,sBACNC,YAAa,GACbC,UAAW,SACXC,WAAY,KAENC,cAAY,QAAAC,EAAA,sBAChB,GAAM,CAAEC,qBAAAA,CAAoB,EAAK,KAAM,QAAO,4BAAgB,EAC9D,OAAOA,CACT,KCPK,IAAMC,EAAwB,CACnC,CACEC,KAAM,GACNC,UAAWC,EACXC,KAAM,CAAEC,OAAQC,EAAmBC,MAAO,cAAc,EACzD",
-  "names": ["itemHistoryDialog", "name", "initContext", "panelSize", "panelClass", "getComponent", "__async", "ItemHistoryComponent", "historyRoutes", "path", "component", "DialogEntryComponent", "data", "dialog", "itemHistoryDialog", "title"]
-}

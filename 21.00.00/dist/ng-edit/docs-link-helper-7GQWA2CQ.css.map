@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/styles/variables.scss", "projects/eav-ui/src/app/admin-shared/docs-link-helper/docs-link-helper.scss"],
-  "sourcesContent": ["$default-font-size: 14px;\r\n\r\n/* 2sxc v20 new primary colors */\r\n$sxc-gradient: linear-gradient( 125deg,\r\n                rgba(36, 14, 18, 1) 10%, /* #240E12 */\r\n                rgba(149, 44, 66, 1) 90% /* #952C42 */\r\n              );\r\n$sxc-solid: #85283B;\r\n$external-link: #465da3;\r\n$text-disabled: rgba(0, 0, 0, 0.38);\r\n\r\n$eav-glow: #4154c0;\r\n\r\n$eav-dialog-padding: 24px;\r\n$eav-header-padding-bottom: 12px;\r\n\r\n$eav-dialog-title-font-size: 29px;\r\n$eav-dialog-title-line-height: 29px;\r\n$eav-dialog-title-font-weight: 400;\r\n\r\n$eav-dialog-subtitle-font-size: 29px;\r\n$eav-dialog-subtitle-line-height: 29px;\r\n$eav-dialog-subtitle-font-weight: 400;\r\n\r\n$eav-card-width: 560px;\r\n$eav-margin: 8px;\r\n$eav-padding: 8px;\r\n\r\n$eav-avatar-font-size: 40px;\r\n$eav-avatar-height: 40px;\r\n$eav-avatar-width: 40px;\r\n\r\n$eav-button-icon-font-size: 24px;\r\n$eav-button-icon-height: 24px;\r\n$eav-button-icon-width: 24px;\r\n\r\n$eav-margin-space: 4px;\r\n", "@use '../../../styles/variables.scss';\r\n\r\n.eav-button__with-icon {\r\n  color: variables.$external-link !important;\r\n}\r\n"],
-  "mappings": "ACEA,CAAA,sBACE,MAAA",
-  "names": []
-}

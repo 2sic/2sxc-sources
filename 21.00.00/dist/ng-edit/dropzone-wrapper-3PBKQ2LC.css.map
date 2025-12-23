@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/wrappers/dropzone/dropzone-wrapper.scss"],
-  "sourcesContent": ["@use \"../../../assets/styles/theme/material-colors.scss\";\r\n\r\n.dropzone-container {\r\n  height: 100%;\r\n  position: relative;\r\n}\r\n"],
-  "mappings": "AAEA,CAAA,mBACE,OAAA,KACA,SAAA",
-  "names": []
-}

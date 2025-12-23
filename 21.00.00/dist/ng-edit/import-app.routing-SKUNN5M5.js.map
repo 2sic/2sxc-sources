@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/import-app/import-app-dialog.config.ts", "projects/eav-ui/src/app/import-app/import-app.routing.ts"],
-  "sourcesContent": ["import { DialogConfig } from '../shared/models/dialog-config.model';\r\n\r\nexport const importAppDialog: DialogConfig = {\r\n  name: 'IMPORT_APP_DIALOG',\r\n  initContext: true,\r\n  panelSize: 'medium',\r\n  panelClass: null,\r\n\r\n  async getComponent() {\r\n    const { ImportAppComponent } = await import('./import-app');\r\n    return ImportAppComponent;\r\n  }\r\n};\r\n", "import { Routes } from '@angular/router';\r\nimport { DialogEntryComponent } from '../shared/components/dialog-entry/dialog-entry';\r\nimport { importAppDialog } from './import-app-dialog.config';\r\n\r\nexport const importRoutes: Routes = [\r\n  {\r\n    path: '',\r\n    component: DialogEntryComponent,\r\n    data: { dialog: importAppDialog }\r\n  }\r\n];\r\n\r\n"],
-  "mappings": "wPAEO,IAAMA,EAAgC,CAC3CC,KAAM,oBACNC,YAAa,GACbC,UAAW,SACXC,WAAY,KAENC,cAAY,QAAAC,EAAA,sBAChB,GAAM,CAAEC,mBAAAA,CAAkB,EAAK,KAAM,QAAO,0BAAc,EAC1D,OAAOA,CACT,KCPK,IAAMC,EAAuB,CAClC,CACEC,KAAM,GACNC,UAAWC,EACXC,KAAM,CAAEC,OAAQC,CAAe,EAChC",
-  "names": ["importAppDialog", "name", "initContext", "panelSize", "panelClass", "getComponent", "__async", "ImportAppComponent", "importRoutes", "path", "component", "DialogEntryComponent", "data", "dialog", "importAppDialog"]
-}

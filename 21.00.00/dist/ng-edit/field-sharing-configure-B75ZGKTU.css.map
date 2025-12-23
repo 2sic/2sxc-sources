@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/content-type-fields/field-sharing-configure/field-sharing-configure.scss"],
-  "sourcesContent": [".my-options-wrapper {\r\n  margin-top: 8px;\r\n  width: 100%;\r\n  max-height: 400px;\r\n  overflow-y: auto;\r\n  border: 1px solid rgba(0, 0, 0, 0.1);\r\n\r\n  .my-selected {\r\n    background-color: rgba(0, 0, 0, 0.15);\r\n  }\r\n}\r\n\r\n// 2pp: made use of mat-dialog-actions so not needed anymore\r\n// .my-actions {\r\n//   width: 100%;\r\n//   display: flex;\r\n//   justify-content: flex-end;\r\n//   padding: 8px 0px;\r\n// }\r\n\r\n.eav-dialog-action-button {\r\n  margin-right: 8px;\r\n\r\n  // 2dm: this was so the icon would be aligned correctly, but ATM not used any more\r\n  // .my-button-body {\r\n  //   display: flex;\r\n  //   align-items: center;\r\n  //   justify-content: center;\r\n\r\n  //   .my-button-body-icon {\r\n  //     margin-left: 4px;\r\n  //     margin-top: 6px;\r\n  //   }\r\n  // }\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,mBACE,WAAA,IACA,MAAA,KACA,WAAA,MACA,WAAA,KACA,OAAA,IAAA,MAAA,KAAA,CAAA,CAAA,CAAA,CAAA,CAAA,CAAA,IAEA,CAPF,mBAOE,CAAA,YACE,iBAAA,UAYJ,CAAA,yBACE,aAAA",
-  "names": []
-}

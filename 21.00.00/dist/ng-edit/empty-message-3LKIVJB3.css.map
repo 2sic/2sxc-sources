@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/basic/empty-message/empty-message.scss"],
-  "sourcesContent": [".message-box {\r\n  padding-left: 16px;\r\n  padding-right: 16px;\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,YACE,aAAA,KACA,cAAA",
-  "names": []
-}

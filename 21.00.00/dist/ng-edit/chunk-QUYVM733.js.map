@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/fields/data-type-catalog.ts"],
-  "sourcesContent": ["export const DataTypeCatalog = {\r\n  Boolean: 'Boolean',\r\n  Custom: 'Custom',\r\n  DateTime: 'DateTime',\r\n  Empty: 'Empty',\r\n  Entity: 'Entity',\r\n  Hyperlink: 'Hyperlink',\r\n  Number: 'Number',\r\n  String: 'String',\r\n} as const /* the as const ensures that the keys/values can be strictly checked */;\r\n"],
-  "mappings": "AAAO,IAAMA,EAAkB,CAC7BC,QAAS,UACTC,OAAQ,SACRC,SAAU,WACVC,MAAO,QACPC,OAAQ,SACRC,UAAW,YACXC,OAAQ,SACRC,OAAQ",
-  "names": ["DataTypeCatalog", "Boolean", "Custom", "DateTime", "Empty", "Entity", "Hyperlink", "Number", "String"]
-}

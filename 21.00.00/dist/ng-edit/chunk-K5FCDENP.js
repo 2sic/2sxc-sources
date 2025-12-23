@@ -1,2 +1,0 @@
-function n(o){let e=document.createElement("textarea");e.value=o,e.setAttribute("readonly",""),e.style.position="absolute",e.style.left="-9999px",document.body.appendChild(e);let t=document.getSelection().rangeCount>0?document.getSelection().getRangeAt(0):!1;e.select(),document.execCommand("copy"),document.body.removeChild(e),t&&(document.getSelection().removeAllRanges(),document.getSelection().addRange(t))}export{n as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-K5FCDENP.js.map

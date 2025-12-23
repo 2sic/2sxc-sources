@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/helpers/array.helpers.ts"],
-  "sourcesContent": ["export class ArrayHelpers {\r\n  /**\r\n   * Toggles an item in an array. If the item is not in the array, it is added. If it is in the array, it is removed.\r\n   * @param item The item to toggle\r\n   * @param array The array to toggle the item in\r\n   */\r\n  static toggleInArray<T>(item: T, array: T[]): T[] {\r\n    const index = array.indexOf(item);\r\n    if (index === -1) {\r\n      array.push(item);\r\n    } else {\r\n      array.splice(index, 1);\r\n    }\r\n    return array;\r\n  }\r\n\r\n  // probably better: Array.from(new Set(merged));\r\n  // static distinct<T extends unknown>(array: T[]): T[] {\r\n  //   return array.filter(onlyUnique);\r\n  // }\r\n\r\n}\r\n\r\n// function onlyUnique<T extends unknown>(value: T, index: number, array: T[]): boolean {\r\n//   return array.indexOf(value) === index;\r\n// }"],
-  "mappings": "AAAM,IAAOA,EAAP,KAAmB,CAMvB,OAAOC,cAAiBC,EAASC,EAAU,CACzC,IAAMC,EAAQD,EAAME,QAAQH,CAAI,EAChC,OAAIE,IAAU,GACZD,EAAMG,KAAKJ,CAAI,EAEfC,EAAMI,OAAOH,EAAO,CAAC,EAEhBD,CACT",
-  "names": ["ArrayHelpers", "toggleInArray", "item", "array", "index", "indexOf", "push", "splice"]
-}

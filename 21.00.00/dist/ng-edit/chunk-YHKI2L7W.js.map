@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/rxJs/mapUntilChanged.ts"],
-  "sourcesContent": ["import { Observable, pipe, UnaryFunction } from 'rxjs';\r\nimport { distinctUntilChanged, map } from 'rxjs/operators';\r\nimport isEqual from 'lodash-es/isEqual';\r\n\r\n/**\r\n * Combine map and distinctUntilChanged, as this is a very common pattern.\r\n * @param fn the mapping function\r\n * @returns\r\n */\r\nexport function mapUntilChanged<T, R>(\r\n  fn: (state: T) => R\r\n): UnaryFunction<Observable<T>, Observable<R>> {\r\n  return pipe(\r\n    distinctUntilChanged(),\r\n    map(fn),\r\n    distinctUntilChanged(),\r\n  );\r\n}\r\n\r\nexport function mapUntilObjChanged<T, R>(\r\n  fn: (state: T) => R\r\n): UnaryFunction<Observable<T>, Observable<R>> {\r\n  return pipe(\r\n    distinctUntilChanged(isEqual),\r\n    map(fn),\r\n    distinctUntilChanged(isEqual),\r\n  );\r\n}\r\n"],
-  "mappings": "8FASM,SAAUA,EACdC,EAAmB,CAEnB,OAAOC,EACLC,EAAoB,EACpBC,EAAIH,CAAE,EACNE,EAAoB,CAAE,CAE1B,CAEM,SAAUE,EACdJ,EAAmB,CAEnB,OAAOC,EACLC,EAAqBG,CAAO,EAC5BF,EAAIH,CAAE,EACNE,EAAqBG,CAAO,CAAC,CAEjC",
-  "names": ["mapUntilChanged", "fn", "pipe", "distinctUntilChanged", "map", "mapUntilObjChanged", "isEqual"]
-}

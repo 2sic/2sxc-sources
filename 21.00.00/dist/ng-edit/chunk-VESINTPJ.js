@@ -1,2 +1,0 @@
-import{Pb as e,fb as n}from"./chunk-46QINP2S.js";var c=(()=>{class o{onMousedown(t){t.stopPropagation()}static{this.\u0275fac=function(i){return new(i||o)}}static{this.\u0275dir=n({type:o,selectors:[["","appMousedownStopPropagation",""]],hostBindings:function(i,r){i&1&&e("mousedown",function(s){return r.onMousedown(s)})}})}}return o})();export{c as a};
-//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-VESINTPJ.js.map

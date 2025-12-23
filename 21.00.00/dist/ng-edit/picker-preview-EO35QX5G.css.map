@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/edit/fields/picker/picker-preview/picker-preview.scss"],
-  "sourcesContent": ["\r\n.picker-inline-button {\r\n  scale: calc(4/5);\r\n  margin-left: -4px;\r\n  margin-right: -4px;\r\n}\r\n\r\n.picker-suffix-text {\r\n  min-width: 80px;\r\n}\r\n\r\n.my-flex {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 0;\r\n}"],
-  "mappings": "AACA,CAAA,qBACE,MAAA,GACA,YAAA,KACA,aAAA,KAGF,CAAA,mBACE,UAAA,KAGF,CAAA,QACE,QAAA,KACA,gBAAA,cACA,YAAA,OAbF,QAcE",
-  "names": []
-}

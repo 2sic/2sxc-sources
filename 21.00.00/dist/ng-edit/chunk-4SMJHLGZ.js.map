@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["projects/eav-ui/src/app/shared/components/base.ts"],
-  "sourcesContent": ["import { Component, OnDestroy } from '@angular/core';\r\nimport { Subscription } from 'rxjs';\r\n\r\n/**\r\n * A newer base component, without Log being created / requested.\r\n * This is so it's easier to inherit than the BaseComponent,\r\n * which would make typed log with specs harder to implement.\r\n * \r\n * Note that as with time, we wish to get away from these, as we don't want to use many observables any more.\r\n */\r\n@Component({\r\n  selector: 'app-base',\r\n  template: '',\r\n})\r\n// tslint:disable-next-line:directive-class-suffix\r\nexport abstract class BaseComponent implements OnDestroy {\r\n  \r\n  /** Holds all subscriptions to be unsubscribed on destroy */\r\n  protected subscriptions = new Subscription();\r\n\r\n  ngOnDestroy() {\r\n    this.subscriptions.unsubscribe();\r\n  }\r\n\r\n}\r\n"],
-  "mappings": "gDAeA,IAAsBA,GAAa,IAAA,CAA7B,MAAgBA,CAAa,CALnCC,aAAA,CAQY,KAAAC,cAAgB,IAAIC,EAE9BC,aAAW,CACT,KAAKF,cAAcG,YAAW,CAChC,iDAPoBL,EAAa,CAAA,+BAAbA,EAAaM,UAAA,CAAA,CAAA,UAAA,CAAA,EAAAC,MAAA,EAAAC,KAAA,EAAAC,SAAA,SAAAC,EAAAC,EAAA,CAAA,EAAAC,cAAA,CAAA,CAAA,CAAA,SAAbZ,CAAa,GAAA",
-  "names": ["BaseComponent", "constructor", "subscriptions", "Subscription", "ngOnDestroy", "unsubscribe", "selectors", "decls", "vars", "template", "rf", "ctx", "encapsulation"]
-}
