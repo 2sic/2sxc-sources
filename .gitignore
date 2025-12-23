@@ -1,0 +1,3 @@
+# Stop pushing _latest as anybody creating a full
+# release will have to rebuild all js/ts/css anyhow
+/_latest/**
