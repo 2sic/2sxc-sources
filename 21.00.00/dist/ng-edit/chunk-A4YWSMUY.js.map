@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/helpers/json.helpers.ts"],
+  "sourcesContent": ["\r\nexport class JsonHelpers {\r\n\r\n  /** Tries to parse string as JSON */\r\n  static tryParse(input: string): any {\r\n    try {\r\n      return JSON.parse(input);\r\n    } catch { }\r\n  }\r\n}\r\n"],
+  "mappings": "AACM,IAAOA,EAAP,KAAkB,CAGtB,OAAOC,SAASC,EAAa,CAC3B,GAAI,CACF,OAAOC,KAAKC,MAAMF,CAAK,CACzB,MAAQ,CAAE,CACZ",
+  "names": ["JsonHelpers", "tryParse", "input", "JSON", "parse"]
+}

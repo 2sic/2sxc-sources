@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/pipes/safe-html.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\r\nimport { DomSanitizer } from '@angular/platform-browser';\r\n\r\n@Pipe({\r\n  name: 'safeHtml',\r\n})\r\nexport class SafeHtmlPipe implements PipeTransform {\r\n\r\n  constructor(private sanitizer: DomSanitizer) { }\r\n\r\n  transform(html: string) {\r\n    return this.sanitizer.bypassSecurityTrustHtml(html);\r\n  }\r\n}\r\n"],
+  "mappings": "yDAMA,IAAaA,GAAY,IAAA,CAAnB,MAAOA,CAAY,CAEvBC,YAAoBC,EAAuB,CAAvB,KAAAA,UAAAA,CAA2B,CAE/CC,UAAUC,EAAY,CACpB,OAAO,KAAKF,UAAUG,wBAAwBD,CAAI,CACpD,iDANWJ,GAAYM,EAAAC,EAAA,EAAA,CAAA,CAAA,CAAA,gDAAZP,EAAYQ,KAAA,EAAA,CAAA,CAAA,SAAZR,CAAY,GAAA",
+  "names": ["SafeHtmlPipe", "constructor", "sanitizer", "transform", "html", "bypassSecurityTrustHtml", "\u0275\u0275directiveInject", "DomSanitizer", "pure"]
+}

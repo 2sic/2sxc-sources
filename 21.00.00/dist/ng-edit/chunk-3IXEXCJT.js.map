@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/ag-grid/ag-grid-helper.ts"],
+  "sourcesContent": ["export class AgGridHelper {\r\n  public static cellLink(link: string, body: string, classes?: string): string {\r\n    return `<a class=\"default-link fill-cell ${classes}\" href=\"${link}\">${body}</a>`;\r\n  }\r\n}"],
+  "mappings": "AAAM,IAAOA,EAAP,KAAmB,CAChB,OAAOC,SAASC,EAAcC,EAAcC,EAAgB,CACjE,MAAO,oCAAoCA,CAAO,WAAWF,CAAI,KAAKC,CAAI,MAC5E",
+  "names": ["AgGridHelper", "cellLink", "link", "body", "classes"]
+}

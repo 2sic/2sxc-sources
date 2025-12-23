@@ -1,0 +1,2 @@
+import{d as r}from"./chunk-OYQCZWOE.js";import{Fb as o,db as n}from"./chunk-46QINP2S.js";import"./chunk-BDOJB7O2.js";var m=(()=>{class e{constructor(){}static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=n({type:e,selectors:[["app-dev-rest-entry"]],decls:1,vars:0,template:function(t,p){t&1&&o(0,"router-outlet")},dependencies:[r],encapsulation:2})}}return e})();export{m as DevRestEntryComponent};
+//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/entry-QPTYJDOE.js.map

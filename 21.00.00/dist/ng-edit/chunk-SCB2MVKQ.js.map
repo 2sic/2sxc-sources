@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/dialog/main/keyboard-shortcuts.ts"],
+  "sourcesContent": ["/**\r\n * Checks if the keyboard event is triggered by the Escape key.\r\n * @param event KeyboardEvent\r\n * @returns boolean\r\n */\r\nexport function isEscape(event: KeyboardEvent): boolean {\r\n  return event.key === 'Escape';\r\n}\r\n\r\n/**\r\n * Checks if the keyboard event is triggered by Ctrl + S (or Cmd + S on Mac).\r\n * @param event KeyboardEvent\r\n * @returns boolean\r\n */\r\nexport function isCtrlS(event: KeyboardEvent): boolean {\r\n  return (event.key === 's' || event.key === 'S') && (event.ctrlKey || event.metaKey);\r\n}\r\n\r\n/**\r\n * Checks if the keyboard event is triggered by Ctrl + Enter (or Cmd + Enter on Mac).\r\n * @param event KeyboardEvent\r\n * @returns boolean\r\n */\r\nexport function isCtrlEnter(event: KeyboardEvent): boolean {\r\n  return event.key === 'Enter' && (event.ctrlKey || event.metaKey);\r\n}"],
+  "mappings": "AAKM,SAAUA,EAASC,EAAoB,CAC3C,OAAOA,EAAMC,MAAQ,QACvB,CAOM,SAAUC,EAAQF,EAAoB,CAC1C,OAAQA,EAAMC,MAAQ,KAAOD,EAAMC,MAAQ,OAASD,EAAMG,SAAWH,EAAMI,QAC7E,CAOM,SAAUC,EAAYL,EAAoB,CAC9C,OAAOA,EAAMC,MAAQ,UAAYD,EAAMG,SAAWH,EAAMI,QAC1D",
+  "names": ["isEscape", "event", "key", "isCtrlS", "ctrlKey", "metaKey", "isCtrlEnter"]
+}

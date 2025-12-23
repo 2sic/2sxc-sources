@@ -1,0 +1,2 @@
+import{Cd as s,Za as r,gb as e}from"./chunk-46QINP2S.js";var n=(()=>{class t{constructor(i){this.sanitizer=i}transform(i){return this.sanitizer.bypassSecurityTrustHtml(i)}static{this.\u0275fac=function(a){return new(a||t)(r(s,16))}}static{this.\u0275pipe=e({name:"safeHtml",type:t,pure:!0})}}return t})();export{n as a};
+//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-4YE3E6NH.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/copilot/copilot-generator.scss"],
+  "sourcesContent": ["mat-card-actions {\r\n  display: flex;\r\n  width: 100%;\r\n  justify-content: space-between;\r\n}\r\n\r\n.eav-cards-box-expanded {\r\n  min-height: 200px;\r\n  transition: min-height 0.2s;\r\n}\r\n\r\n.configuration-select {\r\n  display: flex;\r\n  gap: 8px;\r\n  align-items: center;\r\n}\r\n"],
+  "mappings": "AAAA,iBACE,QAAA,KACA,MAAA,KACA,gBAAA,cAGF,CAAA,uBACE,WAAA,MACA,WAAA,WAAA,IAGF,CAAA,qBACE,QAAA,KACA,IAAA,IACA,YAAA",
+  "names": []
+}

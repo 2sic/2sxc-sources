@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/helpers/update-env-vars-from-dialog-settings.helper.ts"],
+  "sourcesContent": ["import { EnvironmentSpecs } from '@2sic.com/2sxc-typings';\r\nimport { DialogContextApp } from '../models/dialog-context.models';\r\nimport { EavWindow } from '../models/eav-window.model';\r\n\r\ndeclare const window: EavWindow;\r\n\r\n/**\r\n * This ensures that $2sxc is fully initialized with parameters which are provided later on\r\n * The appApi is being added in v12\r\n * It's important because in Oqtane the app-api root is different in from the normal admin-apis\r\n */\r\nexport function Update$2sxcEnvFromContext(appContext: DialogContextApp): void {\r\n  try {\r\n    const includedApiRoot = appContext?.Api;\r\n    if (!includedApiRoot)\r\n      return;\r\n\r\n    const old2sxcHeader = (window.$2sxc.env as any).header as EnvironmentSpecs;\r\n    const new2sxcHeader = { ...old2sxcHeader, appApi: includedApiRoot } as EnvironmentSpecs;\r\n    window.$2sxc.env.load(new2sxcHeader);\r\n  } catch { /* ignore */ }\r\n}\r\n"],
+  "mappings": "+CAWM,SAAUA,EAA0BC,EAA4B,CACpE,GAAI,CACF,IAAMC,EAAkBD,GAAYE,IACpC,GAAI,CAACD,EACH,OAEF,IAAME,EAAiBC,OAAOC,MAAMC,IAAYC,OAC1CC,EAAgBC,EAAAC,EAAA,GAAKP,GAAL,CAAoBQ,OAAQV,CAAe,GACjEG,OAAOC,MAAMC,IAAIM,KAAKJ,CAAa,CACrC,MAAQ,CAAE,CACZ",
+  "names": ["Update$2sxcEnvFromContext", "appContext", "includedApiRoot", "Api", "old2sxcHeader", "window", "$2sxc", "env", "header", "new2sxcHeader", "__spreadProps", "__spreadValues", "appApi", "load"]
+}

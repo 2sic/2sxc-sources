@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/features/features-disable-autoload.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\r\n\r\n/**\r\n * Experimental\r\n */\r\n@Injectable({ providedIn: 'root' })\r\nexport class FeaturesDisableAutoLoadService {\r\n  disableAutoLoad = false;\r\n}"],
+  "mappings": "yCAMA,IAAaA,GAA8B,IAAA,CAArC,MAAOA,CAA8B,CAD3CC,aAAA,CAEE,KAAAC,gBAAkB,mDADPF,EAA8B,CAAA,iCAA9BA,EAA8BG,QAA9BH,EAA8BI,UAAAC,WADjB,MAAM,CAAA,CAAA,SACnBL,CAA8B,GAAA",
+  "names": ["FeaturesDisableAutoLoadService", "constructor", "disableAutoLoad", "factory", "\u0275fac", "providedIn"]
+}

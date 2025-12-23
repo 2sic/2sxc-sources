@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/import-extension/import-extension.scss"],
+  "sourcesContent": [".disabled {\r\n  opacity: 0.25;\r\n  pointer-events: none;\r\n}\r\n\r\n.eav-app-catalog-button {\r\n  margin-left: 12px;\r\n}\r\n\r\n.eav-app-catalog-iframe {\r\n  margin-top: 16px;\r\n  width: 100%;\r\n  height: 500px;\r\n  border: none;\r\n}\r\n\r\nmat-slide-toggle {\r\n  margin-left: 5px;\r\n}"],
+  "mappings": "AAAA,CAAA,SACE,QAAA,IACA,eAAA,KAGF,CAAA,uBACE,YAAA,KAGF,CAAA,uBACE,WAAA,KACA,MAAA,KACA,OAAA,MACA,OAAA,KAGF,iBACE,YAAA",
+  "names": []
+}

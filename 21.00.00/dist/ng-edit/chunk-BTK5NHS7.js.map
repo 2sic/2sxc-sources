@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/services/clipboard.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\r\nimport { MatSnackBar } from '@angular/material/snack-bar';\r\nimport { copyToClipboard } from '../helpers/copy-to-clipboard.helper';\r\n\r\n@Injectable({ providedIn: 'root' })\r\nexport class ClipboardService {\r\n\r\n  constructor(private snackBar: MatSnackBar) { }\r\n\r\n  copyToClipboard(text: string): void {\r\n    copyToClipboard(text);\r\n    this.snackBar.open('Copied to clipboard', null, { duration: 2000 });\r\n  }\r\n}"],
+  "mappings": "iIAKA,IAAaA,GAAgB,IAAA,CAAvB,MAAOA,CAAgB,CAE3BC,YAAoBC,EAAqB,CAArB,KAAAA,SAAAA,CAAyB,CAE7CC,gBAAgBC,EAAY,CAC1BD,EAAgBC,CAAI,EACpB,KAAKF,SAASG,KAAK,sBAAuB,KAAM,CAAEC,SAAU,GAAI,CAAE,CACpE,iDAPWN,GAAgBO,EAAAC,CAAA,CAAA,CAAA,CAAA,iCAAhBR,EAAgBS,QAAhBT,EAAgBU,UAAAC,WADH,MAAM,CAAA,CAAA,SACnBX,CAAgB,GAAA",
+  "names": ["ClipboardService", "constructor", "snackBar", "copyToClipboard", "text", "open", "duration", "\u0275\u0275inject", "MatSnackBar", "factory", "\u0275fac", "providedIn"]
+}

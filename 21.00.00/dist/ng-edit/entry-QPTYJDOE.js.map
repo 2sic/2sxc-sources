@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/dev-rest/entry/entry.ts", "projects/eav-ui/src/app/dev-rest/entry/entry.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\r\nimport { RouterOutlet } from '@angular/router';\r\n\r\n@Component({\r\n    selector: 'app-dev-rest-entry',\r\n    templateUrl: './entry.html',\r\n    imports: [RouterOutlet]\r\n})\r\nexport class DevRestEntryComponent {\r\n  constructor() { }\r\n}\r\n", "<router-outlet></router-outlet>\r\n"],
+  "mappings": "qHAQA,IAAaA,GAAqB,IAAA,CAA5B,MAAOA,CAAqB,CAChCC,aAAA,CAAgB,iDADLD,EAAqB,CAAA,+BAArBA,EAAqBE,UAAA,CAAA,CAAA,oBAAA,CAAA,EAAAC,MAAA,EAAAC,KAAA,EAAAC,SAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,GCRlCE,EAAA,EAAA,eAAA,iBDMcC,CAAY,EAAAC,cAAA,CAAA,CAAA,CAAA,SAEbV,CAAqB,GAAA",
+  "names": ["DevRestEntryComponent", "constructor", "selectors", "decls", "vars", "template", "rf", "ctx", "\u0275\u0275element", "RouterOutlet", "encapsulation"]
+}

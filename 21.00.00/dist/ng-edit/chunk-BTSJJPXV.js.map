@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/constants/guid.constants.ts"],
+  "sourcesContent": ["/**\r\n * Do not reuse regex:\r\n * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test#using_test_on_a_regex_with_the_global_flag\r\n */\r\nexport function guidRegex(): RegExp {\r\n  return /^[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/i;\r\n}\r\n"],
+  "mappings": "AAIM,SAAUA,GAAS,CACvB,MAAO,gDACT",
+  "names": ["guidRegex"]
+}

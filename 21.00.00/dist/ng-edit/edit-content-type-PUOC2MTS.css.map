@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/edit-content-type/edit-content-type.scss"],
+  "sourcesContent": [".eav-edit-input {\r\n  padding-bottom: 8px;\r\n}\r\n\r\n.eav-form-and-button {\r\n  display: flex;\r\n  align-items: baseline;\r\n  justify-content: space-between;\r\n  .eav-scope-button {\r\n    margin-left: 8px;\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,eACE,eAAA,IAGF,CAAA,oBACE,QAAA,KACA,YAAA,SACA,gBAAA,cACA,CAJF,oBAIE,CAAA,iBACE,YAAA",
+  "names": []
+}

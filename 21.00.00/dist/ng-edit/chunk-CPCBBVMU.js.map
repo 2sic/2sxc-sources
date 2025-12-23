@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/queries/ag-actions/ag-actions.ts"],
+  "sourcesContent": ["import { ICellRendererAngularComp } from '@ag-grid-community/angular';\r\n\r\nexport abstract class AgActionsAlwaysRefresh implements ICellRendererAngularComp {\r\n  abstract agInit(params: any): void;\r\n\r\n  refresh(params?: any): boolean {\r\n    return true;\r\n  }\r\n}\r\n"],
+  "mappings": "AAEM,IAAgBA,EAAhB,KAAsC,CAG1CC,QAAQC,EAAY,CAClB,MAAO,EACT",
+  "names": ["AgActionsAlwaysRefresh", "refresh", "params"]
+}

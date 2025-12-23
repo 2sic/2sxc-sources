@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/app-admin-helpers.ts"],
+  "sourcesContent": ["import { eavConstants } from '../shared/constants/eav.constants';\r\nimport { EditForm, EditPrep } from '../shared/models/edit-form.model';\r\n\r\nexport class AppAdminHelpers {\r\n  public static getLightSpeedEditParams(appId: number) {\r\n    const form: EditForm = {\r\n      items: [\r\n        EditPrep.newMetadata(appId, eavConstants.appMetadata.LightSpeed.ContentTypeName, eavConstants.metadata.app, true),\r\n      ],\r\n    };\r\n    return form;\r\n  }\r\n}\r\n"],
+  "mappings": "2EAGM,IAAOA,EAAP,KAAsB,CACnB,OAAOC,wBAAwBC,EAAa,CAMjD,MALuB,CACrBC,MAAO,CACLC,EAASC,YAAYH,EAAOI,EAAaC,YAAYC,WAAWC,gBAAiBH,EAAaI,SAASC,IAAK,EAAI,CAAC,EAIvH",
+  "names": ["AppAdminHelpers", "getLightSpeedEditParams", "appId", "items", "EditPrep", "newMetadata", "eavConstants", "appMetadata", "LightSpeed", "ContentTypeName", "metadata", "app"]
+}

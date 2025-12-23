@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/constants/dropdown-insert-value.constant.ts"],
+  "sourcesContent": ["export const dropdownInsertValue = 'DROPDOWN_INSERT_VALUE' as const;\r\n"],
+  "mappings": "AAAO,IAAMA,EAAsB",
+  "names": ["dropdownInsertValue"]
+}

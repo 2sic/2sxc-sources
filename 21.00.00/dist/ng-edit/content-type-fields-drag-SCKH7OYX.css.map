@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;d34f036963dcdbe85266c0c20be631187be63b2be384c5a93e0ab652885e6a6a;C:/Projects/2sxc/eav-ui/projects/eav-ui/src/app/content-type-fields/content-type-fields-drag/content-type-fields-drag.ts"],
+  "sourcesContent": ["\n    .spinner-container {\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      height: 100%;\n      width: 100%;\n    }\n  "],
+  "mappings": "AACI,CAAC,kBACC,QAAS,KACT,YAAa,OACb,gBAAiB,OACjB,OAAQ,KACR,MAAO,IACT",
+  "names": []
+}

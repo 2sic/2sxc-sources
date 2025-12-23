@@ -1,0 +1,2 @@
+import{b as n,db as o}from"./chunk-46QINP2S.js";var c=(()=>{class t{constructor(){this.subscriptions=new n}ngOnDestroy(){this.subscriptions.unsubscribe()}static{this.\u0275fac=function(e){return new(e||t)}}static{this.\u0275cmp=o({type:t,selectors:[["app-base"]],decls:0,vars:0,template:function(e,i){},encapsulation:2})}}return t})();export{c as a};
+//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-4SMJHLGZ.js.map

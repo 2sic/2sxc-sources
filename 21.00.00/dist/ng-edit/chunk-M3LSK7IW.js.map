@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/routing/route-link-helper.ts"],
+  "sourcesContent": ["import { RouteContextInfo } from './route-context-info';\r\n\r\nexport class RouteLinkHelper {\r\n\r\n  routeTo(context: RouteContextInfo, path: string) {\r\n    return `${this.routeRoot(context)}/${path}`;\r\n  }\r\n\r\n\r\n  routeRoot(context: RouteContextInfo) {\r\n    const route = `${context.zoneId}/v2/${context.moduleId}/${context.contentBlockId}/${context.appId}`;\r\n    return route;\r\n  }\r\n  \r\n}"],
+  "mappings": "AAEM,IAAOA,EAAP,KAAsB,CAE1BC,QAAQC,EAA2BC,EAAY,CAC7C,MAAO,GAAG,KAAKC,UAAUF,CAAO,CAAC,IAAIC,CAAI,EAC3C,CAGAC,UAAUF,EAAyB,CAEjC,MADc,GAAGA,EAAQG,MAAM,OAAOH,EAAQI,QAAQ,IAAIJ,EAAQK,cAAc,IAAIL,EAAQM,KAAK,EAEnG",
+  "names": ["RouteLinkHelper", "routeTo", "context", "path", "routeRoot", "zoneId", "moduleId", "contentBlockId", "appId"]
+}

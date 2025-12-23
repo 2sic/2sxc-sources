@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/views-usage/views-usage-id/views-usage-id.scss"],
+  "sourcesContent": [".id-box {\r\n  padding: 0 8px;\r\n  text-align: end;\r\n  height: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: flex-end;\r\n\r\n  .id {\r\n    max-width: 100%;\r\n    text-overflow: ellipsis;\r\n    overflow: hidden;\r\n  }\r\n\r\n  &:hover {\r\n    text-decoration: none;\r\n\r\n    .id {\r\n      display: none;\r\n    }\r\n  }\r\n\r\n  &:not(:hover) {\r\n    .icon {\r\n      display: none;\r\n    }\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,OAAA,QACE,EAAA,IACA,WAAA,IACA,OAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,SAEA,CARF,OAQE,CAAA,GACE,UAAA,KACA,cAAA,SACA,SAAA,OAGF,CAdF,MAcE,OACE,gBAAA,KAEA,CAjBJ,MAiBI,OAAA,CATF,GAUI,QAAA,KAKF,CAvBJ,MAuBI,KAAA,QAAA,CAAA,KACE,QAAA",
+  "names": []
+}

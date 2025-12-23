@@ -1,0 +1,2 @@
+import{a as f}from"./chunk-EZZQWHAZ.js";import{H as i,p as e,xd as s}from"./chunk-46QINP2S.js";function c(o){return{loader:{provide:f,useFactory:o,deps:[s]},defaultLanguage:"en",isolate:!0}}var n=class{constructor(t,r,a){this.http=t,this.prefix=r,this.suffix=a}getTranslation(t){return this.http.get(`${this.prefix}${t}${this.suffix}`).pipe(i(r=>(console.warn(`Translation: Failed to get language '${t}' from ${this.prefix}`,r),e({}))))}};export{c as a,n as b};
+//# sourceMappingURL=https://sources.2sxc.org/21.00.00/dist/ng-edit/chunk-YGNCQ4Q2.js.map

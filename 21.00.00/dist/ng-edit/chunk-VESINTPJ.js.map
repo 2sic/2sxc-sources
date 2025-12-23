@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/directives/mousedown-stop-propagation.directive.ts"],
+  "sourcesContent": ["import { Directive, HostListener } from '@angular/core';\r\n\r\n@Directive({\r\n  selector: '[appMousedownStopPropagation]',\r\n})\r\nexport class MousedownStopPropagationDirective {\r\n  @HostListener('mousedown', ['$event'])\r\n  onMousedown(event: MouseEvent): void {\r\n    event.stopPropagation();\r\n  }\r\n}\r\n"],
+  "mappings": "iDAKA,IAAaA,GAAiC,IAAA,CAAxC,MAAOA,CAAiC,CAE5CC,YAAYC,EAAiB,CAC3BA,EAAMC,gBAAe,CACvB,iDAJWH,EAAiC,CAAA,+BAAjCA,EAAiCI,UAAA,CAAA,CAAA,GAAA,8BAAA,EAAA,CAAA,EAAAC,aAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,GAAjCE,EAAA,YAAA,SAAAC,EAAA,CAAA,OAAAF,EAAAN,YAAAQ,CAAA,CAAmB,CAAA,aAAnBT,CAAiC,GAAA",
+  "names": ["MousedownStopPropagationDirective", "onMousedown", "event", "stopPropagation", "selectors", "hostBindings", "rf", "ctx", "\u0275\u0275listener", "$event"]
+}
