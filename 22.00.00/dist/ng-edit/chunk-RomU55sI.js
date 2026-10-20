@@ -1,0 +1,1 @@
+import {i as p,r}from'./main-RLZDMJKP.js';var e=class{static getLightSpeedEditParams(r$1){return {items:[p.newMetadata(r$1,r.appMetadata.LightSpeed.ContentTypeName,r.metadata.app,true)]}}};export{e};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-RomU55sI.js.map

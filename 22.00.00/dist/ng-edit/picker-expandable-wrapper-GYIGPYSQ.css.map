@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/fields/wrappers/picker-dialog/picker-expandable-wrapper.scss"],
+  "sourcesContent": [".eav-card {\r\n  padding: 16px;\r\n}\r\n\r\n::ng-deep .eav-layout-grid {\r\n  padding: 16px;\r\n\r\n  .mat-mdc-card {\r\n    height: calc(100% - 32px);\r\n  }\r\n}\r\n\r\n"],
+  "mappings": "AAAA,CAAA,SAAA,QACE,KAGF,UAAA,CAAA,gBAJA,QAKE,KAEA,UAAA,CAHF,gBAGE,CAAA,aACE,OAAA,KAAA,KAAA,EAAA",
+  "names": []
+}

@@ -1,0 +1,1 @@
+import {dw as SD,bF as Jf,ax as Ie,dx as Qe}from'./main-RLZDMJKP.js';function a(n){return SD(Jf(),Ie(n),Jf())}function f(n){return SD(Jf(Qe),Ie(n),Jf(Qe))}export{a,f};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-BGIHVIqE.js.map

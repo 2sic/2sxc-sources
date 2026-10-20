@@ -1,0 +1,1 @@
+var t$1=class t{agInit(a){this.params=a,this.data=a.data;}refresh(a){return  true}do(a){this.params.do(a,this.data);}};export{t$1 as t};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-BbMec8gI.js.map

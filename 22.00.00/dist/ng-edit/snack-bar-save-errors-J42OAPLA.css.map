@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/dialog/main/snack-bar-save-errors/snack-bar-save-errors.scss"],
+  "sourcesContent": [".save-errors-container {\r\n  font-size: 14px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,sBACE,UAAA",
+  "names": []
+}

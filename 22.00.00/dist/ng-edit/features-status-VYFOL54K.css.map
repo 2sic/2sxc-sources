@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/apps-management/licence-info/features-status/features-status.scss"],
+  "sourcesContent": [":host {\r\n  height: 100%;\r\n  display: flex;\r\n  padding-left: 12px;\r\n  padding-right: 12px;\r\n  align-items: center;\r\n}\r\n\r\n.mat-mdc-slide-toggle {\r\n  padding-top: 0;\r\n}\r\n\r\n::ng-deep .toggle-false.mat-mdc-slide-toggle:not(.mat-mdc-slide-toggle-checked):not(.mat-disabled) .mdc-switch__track::before {\r\n  /*(mdc-migration): The following rule targets internal classes of slide-toggle that may no longer apply for the MDC version. */\r\n  background-color: orange !important;\r\n}\r\n\r\n::ng-deep .toggle-null .mdc-switch__handle {\r\n  /*(mdc-migration): The following rule targets internal classes of slide-toggle that may no longer apply for the MDC version. */\r\n  margin-left: 8px;\r\n}\r\n"],
+  "mappings": "AAAA,MACE,OAAA,KACA,QAAA,KACA,aAAA,KACA,cAAA,KACA,YAAA,OAGF,CAAA,qBACE,YAAA,EAGF,UAAA,CAAA,YAAA,CAJA,oBAIA,KAAA,CAAA,6BAAA,KAAA,CAAA,cAAA,CAAA,iBAAA,QAEE,iBAAA,iBAGF,UAAA,CAAA,YAAA,CAAA,mBAEE,YAAA",
+  "names": []
+}

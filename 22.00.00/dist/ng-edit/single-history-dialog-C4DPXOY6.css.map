@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/recycle-bin/single-history-dialog.scss"],
+  "sourcesContent": [".eav-dialog-content {\r\n    padding-bottom: 16px !important;\r\n}"],
+  "mappings": "AAAA,CAAA,mBACI,eAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/apps-management/add-app-from-folder/app-name-show/app-name-show.scss"],
+  "sourcesContent": [".name-box {\r\n  display: flex;\r\n  align-items: center ;\r\n}\r\n\r\n.info-icon {\r\n  margin-left: 7px;\r\n  margin-bottom: 3px;\r\n}"],
+  "mappings": "AAAA,CAAA,SACE,QAAA,KACA,YAAA,OAGF,CAAA,UACE,YAAA,IACA,cAAA",
+  "names": []
+}

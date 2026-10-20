@@ -1,0 +1,1 @@
+var t=[{path:"",loadComponent:()=>import('./code-editor-MP4wowCN.js').then(o=>o.CodeEditorComponent)}];export{t as codeEditorRoutes};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/code-editor.routing-Dqkrf2yz.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/analyze-settings/analyze-settings-key/analyze-settings-key.scss"],
+  "sourcesContent": [".key-box {\r\n  padding: 0 8px;\r\n  height: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n\r\n  .key {\r\n    width: 100%;\r\n    text-overflow: ellipsis;\r\n    overflow: hidden;\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,QAAA,QACE,EAAA,IACA,OAAA,KACA,QAAA,KACA,YAAA,OAEA,CANF,QAME,CAAA,IACE,MAAA,KACA,cAAA,SACA,SAAA",
+  "names": []
+}

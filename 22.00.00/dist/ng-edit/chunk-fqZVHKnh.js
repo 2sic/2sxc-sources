@@ -1,0 +1,1 @@
+import {x as x$1,k as w}from'./main-RLZDMJKP.js';function i(c){try{let e=c?.Api;if(!e)return;let t=window.$2sxc.env.header,d=x$1(w({},t),{appApi:e});window.$2sxc.env.load(d);}catch(e){}}export{i};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-fqZVHKnh.js.map

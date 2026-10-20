@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/code-editor/code-and-edition-warnings/code-and-edition-warnings.scss"],
+  "sourcesContent": [".messages {\r\n  font-size: 14px;\r\n\r\n  a {\r\n    color: white;\r\n  }\r\n}\r\n\r\n.actions {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: flex-end;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,SACE,UAAA,KAEA,CAHF,SAGE,EACE,MAAA,KAIJ,CAAA,QACE,QAAA,KACA,YAAA,SACA,gBAAA",
+  "names": []
+}

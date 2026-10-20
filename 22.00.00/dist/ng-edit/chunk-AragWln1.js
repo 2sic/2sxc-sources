@@ -1,0 +1,1 @@
+var t$1={Boolean:"Boolean",Custom:"Custom",DateTime:"DateTime",Empty:"Empty",Entity:"Entity",Hyperlink:"Hyperlink",Number:"Number",String:"String"};export{t$1 as t};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-AragWln1.js.map

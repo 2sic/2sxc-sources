@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/apps-management/add-app-from-folder/add-app-from-folder.scss"],
+  "sourcesContent": [".eav-grid {\r\n  height: 200px;\r\n  width: auto;\r\n}"],
+  "mappings": "AAAA,CAAA,SACE,OAAA,MACA,MAAA",
+  "names": []
+}

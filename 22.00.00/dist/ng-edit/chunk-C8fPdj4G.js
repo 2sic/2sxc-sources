@@ -1,0 +1,1 @@
+var l=class{static cellLink(a,c,s){return `<a class="default-link fill-cell ${s}" href="${a}">${c}</a>`}};export{l};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-C8fPdj4G.js.map

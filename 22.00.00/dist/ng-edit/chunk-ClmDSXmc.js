@@ -1,0 +1,1 @@
+var i=(()=>{class e{static{this.route="recycle-bin";}static{this.featureId="EntityUndelete";}static routeDefinition(t){return {name:"Recycle Bin",icon:"delete",svgIcon:false,path:`${t}-${e.route}`,tippy:"Recycle Bin to undelete data",featureRequired:e.featureId}}}return e})();export{i};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-ClmDSXmc.js.map

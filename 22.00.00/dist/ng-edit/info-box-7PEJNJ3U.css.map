@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/dev-rest/info-box/info-box.scss"],
+  "sourcesContent": ["\r\np.warning {\r\n  background-color: lightcoral;\r\n}\r\n\r\np.alert {\r\n  background-color: lightyellow;\r\n}\r\n\r\np.tip {\r\n  background-color: rgb(170, 218, 248);\r\n}\r\n\r\np.info {\r\n  background-color: lightgreen;\r\n}\r\n\r\np.icon-box {\r\n  padding: 5px 5px 5px 60px;\r\n  margin: 5px;\r\n}\r\n\r\np.icon-box mat-icon {\r\n  margin-left: -40px;\r\n}\r\n"],
+  "mappings": "AACA,CAAA,CAAA,QACE,iBAAA,QAGF,CAAA,CAAA,MACE,iBAAA,QAGF,CAAA,CAAA,IACE,iBAAA,QAGF,CAAA,CAAA,KACE,iBAAA,QAGF,CAAA,CAAA,SAhBA,QAiBE,IAAA,IAAA,IAAA,KAjBF,OAkBE,IAGF,CAAA,CALA,SAKA,SACE,YAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/content-type-fields/edit-content-type-fields/edit-content-type-fields.scss"],
+  "sourcesContent": [".eav-row-container {\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.eav-edit-input {\r\n  padding-bottom: 8px;\r\n  width: 30%;\r\n}\r\n\r\n.eav-type-icon {\r\n  width: inherit;\r\n  height: inherit;\r\n  margin-right: 8px;\r\n  font-size: inherit;\r\n  vertical-align: top;\r\n  line-height: inherit;\r\n}\r\n\r\n.eav-input-icon {\r\n  width: inherit;\r\n  height: inherit;\r\n  margin-left: 8px;\r\n  font-size: inherit;\r\n  vertical-align: top;\r\n  line-height: inherit;\r\n}\r\n\r\n.eav-input-obsolete {\r\n  text-decoration: black line-through;\r\n  color: dimgray;\r\n}\r\n\r\n// Get the panel of the selection to be longer\r\n// so that the user can see all options\r\n::ng-deep .mdc-menu-surface.mat-mdc-select-panel {\r\n  &.eav-type-field-input-type-select, &.eav-type-field-type-select {\r\n    max-height: 500px;\r\n  }\r\n}"],
+  "mappings": "AAAA,CAAA,kBACE,QAAA,KACA,gBAAA,cAGF,CAAA,eACE,eAAA,IACA,MAAA,IAGF,CAAA,cACE,MAAA,QACA,OAAA,QACA,aAAA,IACA,UAAA,QACA,eAAA,IACA,YAAA,QAGF,CAAA,eACE,MAAA,QACA,OAAA,QACA,YAAA,IACA,UAAA,QACA,eAAA,IACA,YAAA,QAGF,CAAA,mBACE,gBAAA,MAAA,aACA,MAAA,QAMA,UAAA,CAAA,gBAAA,CAAA,oBAAA,CAAA,iCAAA,UAAA,CAAA,gBAAA,CAAA,oBAAA,CAAA,2BACE,WAAA",
+  "names": []
+}

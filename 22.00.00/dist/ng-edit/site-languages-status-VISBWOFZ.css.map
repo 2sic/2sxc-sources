@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/apps-management/site-languages/site-languages-status/site-languages-status.scss"],
+  "sourcesContent": [":host {\r\n  height: 100%;\r\n  display: flex;\r\n  padding-left: 8px;\r\n  padding-right: 8px;\r\n  align-items: center;\r\n}\r\n\r\n.mat-mdc-slide-toggle {\r\n  padding-top: 0;\r\n}\r\n"],
+  "mappings": "AAAA,MACE,OAAA,KACA,QAAA,KACA,aAAA,IACA,cAAA,IACA,YAAA,OAGF,CAAA,qBACE,YAAA",
+  "names": []
+}

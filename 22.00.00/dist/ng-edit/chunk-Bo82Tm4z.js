@@ -1,0 +1,1 @@
+import {bh as G,b6 as Xo}from'./main-RLZDMJKP.js';var n$1=(()=>{class i{constructor(){this.subscriptions=new G;}ngOnDestroy(){this.subscriptions.unsubscribe();}static{this.\u0275fac=function(s){return new(s||i)};}static{this.\u0275dir=Xo({type:i});}}return i})();export{n$1 as n};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-Bo82Tm4z.js.map

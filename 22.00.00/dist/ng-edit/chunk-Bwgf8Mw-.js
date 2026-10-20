@@ -1,0 +1,1 @@
+import {dd as y}from'./main-RLZDMJKP.js';var a=(function(){try{var e=y(Object,"defineProperty");return e({},"",{}),e}catch(r){}})(),t=a;function f(e,r,o){r=="__proto__"&&t?t(e,r,{configurable:true,enumerable:true,value:o,writable:true}):e[r]=o;}var l=f;export{l};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-Bwgf8Mw-.js.map

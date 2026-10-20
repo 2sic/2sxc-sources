@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/styles/app-catalog.scss", "projects/eav-ui/src/app/app-administration/app-extensions/import/import-extension.scss"],
+  "sourcesContent": [".eav-app-catalog-button {\r\n  margin-left: 12px;\r\n}\r\n\r\n.eav-app-catalog-iframe {\r\n  margin-top: 16px;\r\n  width: 100%;\r\n  height: 500px;\r\n  border: none;\r\n}\r\n\r\n.eav-progress {\r\n  position: absolute;\r\n  inset: 0;\r\n  background: rgba(255, 255, 255, 0.8);\r\n\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  text-align: center;\r\n\r\n  mat-progress-spinner {\r\n    margin: 0 auto;\r\n  }\r\n\r\n  span {\r\n    line-height: 48px;\r\n  }\r\n}", "@use '../../../../styles/app-catalog.scss';\r\n\r\n.disabled {\r\n  opacity: 0.25;\r\n  pointer-events: none;\r\n}\r\n\r\nmat-slide-toggle {\r\n  margin-left: 5px;\r\n}"],
+  "mappings": "AAAA,CAAA,uBACE,YAAA,KAGF,CAAA,uBACE,WAAA,KACA,MAAA,KACA,OAAA,MACA,OAAA,KAGF,CAAA,aACE,SAAA,SAZF,MAaE,EACA,WAAA,MAEA,QAAA,KACA,eAAA,OACA,gBAAA,OACA,WAAA,OAEA,CAVF,aAUE,qBArBF,OAsBI,EAAA,KAGF,CAdF,aAcE,KACE,YAAA,KCxBJ,CAAA,SACE,QAAA,IACA,eAAA,KAGF,iBACE,YAAA",
+  "names": []
+}

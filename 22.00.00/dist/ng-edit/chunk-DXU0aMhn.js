@@ -1,0 +1,1 @@
+function t(r){return r.key==="Escape"}function e(r){return (r.key==="s"||r.key==="S")&&(r.ctrlKey||r.metaKey)}function y(r){return r.key==="Enter"&&(r.ctrlKey||r.metaKey)}export{e,t,y};//# sourceMappingURL=https://sources.2sxc.org/22.00.00/dist/ng-edit/chunk-DXU0aMhn.js.map
