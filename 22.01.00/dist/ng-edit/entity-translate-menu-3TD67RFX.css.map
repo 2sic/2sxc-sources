@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/entity-form/entity-translate-menu/entity-translate-menu.scss"],
+  "sourcesContent": [".eav-translate-icon {\r\n  font-size: 20px;\r\n  height: 20px;\r\n  width: 20px;\r\n  line-height: 20px;\r\n}\r\n\r\n.my-flex-main {\r\n  display: flex;\r\n  place-content: center end;\r\n}\r\n\r\n.my-flex-inside {\r\n  display: flex;\r\n  align-items: center;\r\n}"],
+  "mappings": "AAAA,CAAA,mBACE,UAAA,KACA,OAAA,KACA,MAAA,KACA,YAAA,KAGF,CAAA,aACE,QAAA,KACA,cAAA,OAAA,IAGF,CAAA,eACE,QAAA,KACA,YAAA",
+  "names": []
+}

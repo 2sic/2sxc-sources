@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/features/icons/feature-icon-with-dialog.scss"],
+  "sourcesContent": [".feature-icon-text {\r\n  font-size: small;\r\n  width: 12px;\r\n  height: 12px;\r\n  padding: 0 4px;\r\n}"],
+  "mappings": "AAAA,CAAA,kBACE,UAAA,MACA,MAAA,KACA,OAAA,KAHF,QAIE,EAAA",
+  "names": []
+}

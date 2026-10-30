@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/replace-content/replace-content.scss"],
+  "sourcesContent": [".eav-options-box {\r\n  display: flex;\r\n  align-items: flex-end;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,gBACE,QAAA,KACA,YAAA",
+  "names": []
+}

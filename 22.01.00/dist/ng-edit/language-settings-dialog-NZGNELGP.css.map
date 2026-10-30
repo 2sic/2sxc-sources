@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/dialog/header/language-settings-dialog/language-settings-dialog.scss"],
+  "sourcesContent": ["mat-form-field {\r\n  width: 50%;\r\n}\r\n\r\n.language-dropdowns {\r\n  display: flex;\r\n  flex-direction: row;\r\n  width: 100%;\r\n  gap: 1rem;\r\n  margin-bottom: 1rem;\r\n}"],
+  "mappings": "AAAA,eACE,MAAA,IAGF,CAAA,mBACE,QAAA,KACA,eAAA,IACA,MAAA,KACA,IAAA,KACA,cAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/apps-management/add-app-from-folder/checkbox-cell/checkbox-cell.scss"],
+  "sourcesContent": [".checkbox-box {\r\n  height: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.checkbox-input {\r\n  height: 15px;\r\n  width: 15px;\r\n}"],
+  "mappings": "AAAA,CAAA,aACE,OAAA,KACA,QAAA,KACA,YAAA,OAGF,CAAA,eACE,OAAA,KACA,MAAA",
+  "names": []
+}

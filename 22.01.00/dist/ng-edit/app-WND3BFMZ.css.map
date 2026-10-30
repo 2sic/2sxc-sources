@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app.scss"],
+  "sourcesContent": [".lading-indicator {\r\n    display: flex;\r\n    width: 100%;\r\n    height: 100%;\r\n    justify-content: center;\r\n    align-items: center;\r\n}"],
+  "mappings": "AAAA,CAAA,iBACI,QAAA,KACA,MAAA,KACA,OAAA,KACA,gBAAA,OACA,YAAA",
+  "names": []
+}

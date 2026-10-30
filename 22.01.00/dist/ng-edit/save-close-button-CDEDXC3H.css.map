@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/modules/save-close-button/save-close-button.scss"],
+  "sourcesContent": [".disabled {\r\n  pointer-events: none;\r\n  opacity: 0.5;\r\n}\r\n\r\n.keybinding-hint {\r\n  // Also uses styles from \"extended-fab-speed-dial.scss\"\r\n  display: inline-flex;\r\n  align-items: center;\r\n  font-size: 0.75rem;\r\n  line-height: 1.5;\r\n}\r\n\r\n.keybinding-hint kbd + kbd {\r\n  margin-left: 3px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,SACE,eAAA,KACA,QAAA,GAGF,CAAA,gBAEE,QAAA,YACA,YAAA,OACA,UAAA,OACA,YAAA,IAGF,CARA,gBAQA,GAAA,CAAA,IACE,YAAA",
+  "names": []
+}

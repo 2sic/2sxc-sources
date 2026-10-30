@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/components/nav-item-list/nav-item-list.scss"],
+  "sourcesContent": [".paddingLink a {\r\n  padding-left: 40px;\r\n}\r\n\r\n.active {\r\n  background-color: rgba(128, 128, 128, 0.1);\r\n}\r\n\r\n.app-menu-container {\r\n  padding: 15px 25px;\r\n  display: flex;\r\n  align-items: center;\r\n  text-decoration: none;\r\n  color: black;\r\n  transition: all 225ms ease-in-out;\r\n\r\n  &:hover {\r\n    background-color: rgba(128, 128, 128, 0.2);\r\n  }\r\n\r\n  .link-text {\r\n    font-size: 18px;\r\n    font-weight: 500;\r\n    margin-left: 25px;\r\n  }\r\n\r\n  .mat-icon {\r\n    transition: all 225ms ease-in-out;\r\n\r\n    &.ml-auto {\r\n      margin-left: auto;\r\n    }\r\n  }\r\n\r\n  .open {\r\n    transform: rotate(180deg);\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,YAAA,EACE,aAAA,KAGF,CAAA,OACE,iBAAA,UAGF,CAAA,mBARA,QASE,KAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,KACA,MAAA,KACA,WAAA,IAAA,MAAA,YAEA,CARF,kBAQE,OACE,iBAAA,UAGF,CAZF,mBAYE,CAAA,UACE,UAAA,KACA,YAAA,IACA,YAAA,KAGF,CAlBF,mBAkBE,CAAA,SACE,WAAA,IAAA,MAAA,YAEA,CArBJ,mBAqBI,CAHF,QAGE,CAAA,QACE,YAAA,KAIJ,CA1BF,mBA0BE,CAAA,KACE,UAAA,OAAA",
+  "names": []
+}
