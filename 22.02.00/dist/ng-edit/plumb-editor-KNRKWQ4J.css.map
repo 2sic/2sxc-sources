@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;1f4b1abed7f7811421e32793bd7b13adbbd593ca9524d18b4d967220ed74944d;C:/Projects/2sxc/eav-ui/projects/eav-ui/src/app/visual-query/plumb-editor/plumb-editor.ts"],
+  "sourcesContent": [":host { display: block; width: 100%; height: 100%; }"],
+  "mappings": "AAAA,MAAQ,QAAS,MAAO,MAAO,KAAM,OAAQ,IAAM",
+  "names": []
+}

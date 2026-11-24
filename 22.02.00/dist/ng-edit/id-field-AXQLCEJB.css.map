@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/shared/components/id-field/id-field.scss"],
+  "sourcesContent": [".id-box {\r\n  padding: 0 8px;\r\n  height: 100%;\r\n  display: flex;\r\n  align-items: center;\r\n\r\n  &.align-start {\r\n    justify-content: flex-start;\r\n  }\r\n\r\n  &.align-end {\r\n    justify-content: flex-end;\r\n  }\r\n\r\n  .id {\r\n    max-width: 100%;\r\n    text-overflow: ellipsis;\r\n    overflow: hidden;\r\n  }\r\n\r\n  &:hover {\r\n    text-decoration: none;\r\n\r\n    .id {\r\n      display: none;\r\n    }\r\n  }\r\n\r\n  &:not(:hover) {\r\n    .icon {\r\n      display: none;\r\n    }\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,OAAA,QACE,EAAA,IACA,OAAA,KACA,QAAA,KACA,YAAA,OAEA,CANF,MAME,CAAA,YACE,gBAAA,WAGF,CAVF,MAUE,CAAA,UACE,gBAAA,SAGF,CAdF,OAcE,CAAA,GACE,UAAA,KACA,cAAA,SACA,SAAA,OAGF,CApBF,MAoBE,OACE,gBAAA,KAEA,CAvBJ,MAuBI,OAAA,CATF,GAUI,QAAA,KAKF,CA7BJ,MA6BI,KAAA,QAAA,CAAA,KACE,QAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/app-extensions/extensions-link/extensions-link.scss"],
+  "sourcesContent": [".small-icon-button {\r\n  width: 24px;\r\n  height: 24px;\r\n  line-height: 24px;\r\n  padding: 0;\r\n  display: inline-flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.small-icon-button mat-icon,\r\n.small-icon-button svg {\r\n  font-size: 20px;\r\n  width: 20px;\r\n  height: 20px;\r\n  line-height: 20px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.grid-container {\r\n  margin-top: 15px;\r\n  display: grid;\r\n  grid-template-columns: repeat(2, 1fr);\r\n  grid-template-rows: repeat(2, 1fr);\r\n  gap: 4px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,kBACE,MAAA,KACA,OAAA,KACA,YAAA,KAHF,QAIE,EACA,QAAA,YACA,YAAA,OACA,gBAAA,OAGF,CAVA,kBAUA,SAAA,CAVA,kBAUA,IAEE,UAAA,KACA,MAAA,KACA,OAAA,KACA,YAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,OAGF,CAAA,eACE,WAAA,KACA,QAAA,KACA,sBAAA,OAAA,CAAA,CAAA,KACA,mBAAA,OAAA,CAAA,CAAA,KACA,IAAA",
+  "names": []
+}

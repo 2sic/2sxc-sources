@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/analyze-settings/settings-item-details/settings-item-details.scss"],
+  "sourcesContent": ["code {\r\n  padding-left: 2px;\r\n  padding-right: 2px;\r\n  background-color: #eeeeee;\r\n}\r\n\r\n.padding-class {\r\n  padding: 0px 24px;\r\n}\r\n\r\n.grid-wrapper {\r\n  padding-left: 24px;\r\n  padding-right: 24px;\r\n}\r\n"],
+  "mappings": "AAAA,KACE,aAAA,IACA,cAAA,IACA,iBAAA,KAGF,CAAA,cANA,QAOE,EAAA,KAGF,CAAA,aACE,aAAA,KACA,cAAA",
+  "names": []
+}

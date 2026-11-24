@@ -1,0 +1,3 @@
+import{V as Jb,g as Cy}from"./chunk-DtJSyZhi.js";import{n as Ar}from"./main-FVISNWX3.js";var m=(()=>{class e{constructor(){}static{this.ɵfac=function(t){return new(t||e)}}static{this.ɵcmp=Jb({type:e,selectors:[[`app-dev-rest-entry`]],decls:1,vars:0,template:function(t,p){t&1&&Cy(0,`router-outlet`)},dependencies:[Ar],encapsulation:2})}}return e})();export{m as DevRestEntryComponent};
+//# debugId=90585001-07d3-5d04-9cd3-ea20361526cf
+//# sourceMappingURL=https://sources.2sxc.org/22.02.00/dist/ng-edit/entry-CV5icDLK.js.map

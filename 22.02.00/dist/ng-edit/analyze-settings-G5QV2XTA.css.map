@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/analyze-settings/analyze-settings.scss"],
+  "sourcesContent": [".view-select-box {\r\n  width: 400px;\r\n}\r\n\r\n.padding-class {\r\n  padding: 0px 24px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,gBACE,MAAA,MAGF,CAAA,cAJA,QAKE,EAAA",
+  "names": []
+}

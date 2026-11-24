@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/app-administration/sub-dialogs/views-usage/views-usage-status-filter/views-usage-status-filter.scss"],
+  "sourcesContent": [".title {\r\n  padding: 12px 12px 0;\r\n}\r\n\r\n.mat-mdc-radio-group {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n  overflow: hidden;\r\n  padding: 12px;\r\n  width: 160px;\r\n  height: 104px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,MAAA,QACE,KAAA,KAAA,EAGF,CAAA,oBACE,QAAA,KACA,eAAA,OACA,gBAAA,cACA,SAAA,OARF,QASE,KACA,MAAA,MACA,OAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/dialog/main/snack-bar-unsaved-changes/snack-bar-unsaved-changes.scss"],
+  "sourcesContent": [".error-message {\r\n  font-size: 14px;\r\n}\r\n\r\n.my-flex-right {\r\n  display: flex;\r\n  justify-content: end;\r\n}"],
+  "mappings": "AAAA,CAAA,cACE,UAAA,KAGF,CAAA,cACE,QAAA,KACA,gBAAA",
+  "names": []
+}

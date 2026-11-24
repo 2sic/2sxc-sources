@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/fields/wrappers/localization/localization-wrapper.scss"],
+  "sourcesContent": ["$translate-width: 48px;\r\n\r\n.language-wrap {\r\n  display: flex;\r\n  padding-left: 16px;\r\n  padding-right: 16px;\r\n}\r\n\r\n.language-wrap__field {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.language-wrap__field-short {\r\n  width: calc(100% - #{$translate-width});\r\n}\r\n\r\n.language-wrap__translate {\r\n  width: $translate-width;\r\n  position: relative;\r\n}\r\n\r\n.language-wrap__translate--hidden {\r\n  width: 0;\r\n}\r\n"],
+  "mappings": "AAEA,CAAA,cACE,QAAA,KACA,aAAA,KACA,cAAA,KAGF,CAAA,qBACE,MAAA,KACA,OAAA,KAGF,CAAA,2BACE,MAAA,KAAA,KAAA,EAAA,MAGF,CAAA,yBACE,MAlBgB,KAmBhB,SAAA,SAGF,CAAA,iCACE,MAAA",
+  "names": []
+}

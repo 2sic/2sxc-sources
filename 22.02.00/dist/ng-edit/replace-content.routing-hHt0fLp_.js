@@ -1,0 +1,3 @@
+import{Bi as C$1}from"./chunk-DtJSyZhi.js";import"./chunk-C4dVjHVF.js";import"./chunk-D18RyqxO.js";import{z as w}from"./main-FVISNWX3.js";import"./chunk-Bo0R4CmS.js";import{t as b}from"./chunk-cT2YK0TF.js";var C=[{path:``,component:b,data:{dialog:{name:`REPLACE_CONTENT_DIALOG`,initContext:!0,panelSize:`medium`,panelClass:null,getComponent(){return C$1(this,null,function*(){let{ReplaceContentComponent:a}=yield import(`./replace-content-ydY8gID3.js`);return a})}}},children:[...w]}];export{C as replaceContentRoutes};
+//# debugId=cf6e8afa-8437-5789-b252-a7fa0a6eec30
+//# sourceMappingURL=https://sources.2sxc.org/22.02.00/dist/ng-edit/replace-content.routing-hHt0fLp_.js.map

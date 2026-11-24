@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/fields/basic/custom-default/custom-default.scss"],
+  "sourcesContent": [".message {\r\n  padding: 16px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,QAAA,QACE",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/edit/dialog/footer/logs-config/logs-config.scss"],
+  "sourcesContent": ["// Ensure that the component is fully visible and handles overflow on the y-axis\r\n:host {\r\n  height: 100%;\r\n  overflow: auto;\r\n}\r\n\r\n.log-content {\r\n  padding-top: 8px;\r\n  border-top: 1px solid lightgray;\r\n}\r\n\r\n.menu {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n}\r\n\r\nmat-form-field {\r\n  margin: 0 1rem 1rem 0;\r\n}\r\n\r\nbutton {\r\n  background: none;\r\n  border: none;\r\n  cursor: pointer;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\n.specs-icon {\r\n  font-size: 1rem;\r\n  font-weight: bold;\r\n  height: 1rem;\r\n  width: 1rem;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\n#search-input,\r\n#active-filter-dropdown {\r\n  width: 120px;\r\n}"],
+  "mappings": "AACA,MACE,OAAA,KACA,SAAA,KAGF,CAAA,YACE,YAAA,IACA,WAAA,IAAA,MAAA,UAGF,CAAA,KACE,QAAA,KACA,YAAA,OACA,gBAAA,cAGF,eAhBA,OAiBE,EAAA,KAAA,KAAA,EAGF,OACE,WAAA,KACA,OAAA,KACA,OAAA,QAvBF,QAwBE,EAxBF,OAyBE,EAGF,CAAA,WACE,UAAA,KACA,YAAA,IACA,OAAA,KACA,MAAA,KAhCF,QAiCE,EAjCF,OAkCE,EAGF,CAAA,aAAA,CAAA,uBAEE,MAAA",
+  "names": []
+}

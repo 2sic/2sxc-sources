@@ -1,0 +1,3 @@
+import{Bi as C}from"./chunk-DtJSyZhi.js";import"./chunk-C4dVjHVF.js";import"./chunk-D18RyqxO.js";import"./main-FVISNWX3.js";import"./chunk-Bo0R4CmS.js";import{t as b}from"./chunk-cT2YK0TF.js";var p=[{path:``,component:b,data:{dialog:{name:`ITEM_HISTORY_DIALOG`,initContext:!0,panelSize:`medium`,panelClass:null,getComponent(){return C(this,null,function*(){let{ItemHistoryComponent:i}=yield import(`./item-history-DXpm1gzH.js`);return i})}},title:`Item History`}}];export{p as historyRoutes};
+//# debugId=43687ff8-6ff7-51b8-a307-8f26e91f41f0
+//# sourceMappingURL=https://sources.2sxc.org/22.02.00/dist/ng-edit/item-history.routing-BhtjSi2-.js.map

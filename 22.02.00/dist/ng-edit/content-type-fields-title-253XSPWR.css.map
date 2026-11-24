@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["projects/eav-ui/src/app/content-type-fields/content-type-fields-title/content-type-fields-title.scss"],
+  "sourcesContent": ["\r\ndiv.hover-only {\r\n  mat-icon {\r\n    display: none;\r\n  }\r\n  &:hover {\r\n    mat-icon {\r\n      display: block;\r\n    }\r\n  }\r\n}\r\ndiv.no-button {\r\n  mat-icon {\r\n    display: none;\r\n  }\r\n}"],
+  "mappings": "AAEE,GAAA,CAAA,WAAA,SACE,QAAA,KAGA,GAAA,CAJF,UAIE,OAAA,SACE,QAAA,MAKJ,GAAA,CAAA,UAAA,SACE,QAAA",
+  "names": []
+}
